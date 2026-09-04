@@ -1,0 +1,34 @@
+# Brain Vault — Authority Boundaries
+
+# This file controls which tools can write to which paths.
+# Each tool gets a set of path prefixes it's allowed to modify.
+# Tools can read everything but only write to their declared prefixes.
+
+write_prefixes:
+  # Hermes Agent — always-on runtime
+  hermes:
+    - "context/"
+    - "decisions/"
+    - "MEMORY.md"
+    - "wiki/"
+    - "projects/"
+
+  # Claude Code — on-demand coding agent
+  claude_code:
+    - "context/"
+    - "decisions/"
+    - "MEMORY.md"
+    - "projects/"
+    - "wiki/"
+
+  # Codex — on-demand terminal coding agent
+  codex:
+    - "context/"
+    - "decisions/"
+    - "MEMORY.md"
+    - "projects/"
+    - "wiki/"
+
+# Read-only tools (can read all, write none)
+read_only:
+  - obsidian  # Visual dashboard, no writes
