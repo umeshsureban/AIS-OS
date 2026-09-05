@@ -6,3 +6,7 @@ __pycache__/
 node_modules/
 .claude/settings.local.json
 audits/
+
+# Obsidian per-machine UI state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
