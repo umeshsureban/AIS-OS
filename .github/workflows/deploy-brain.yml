@@ -1,0 +1,30 @@
+name: Deploy Brain Dashboard
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'dashboard.html'
+      - '.github/workflows/deploy-brain.yml'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to VPS
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USER }}
+          key: ${{ secrets.VPS_SSH_KEY }}
+          script: |
+            bash /opt/data/hermes-vps-clone/deploy-brain.sh
+
+      - name: Verify deployment
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USER }}
+          key: ${{ secrets.VPS_SSH_KEY }}
+          script: |
+            curl -sI https://brain.aitomate.cloud | head -1
