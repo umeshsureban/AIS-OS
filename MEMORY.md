@@ -2,6 +2,8 @@
 
 This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code, and Codex.
 
+**Last Updated:** 2026-09-06 (nightly consolidation)
+
 ---
 
 ## Active Deals & Prospects
@@ -12,8 +14,8 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 - **Email:** anandp.hiremath@gmail.com
 - **Phone:** +61 415 181 698
 - **Deal Stage:** Decision Maker Bought-In (80%)
-- **Status:** Demo video sent, waiting for reply on automation interest
-- **Next Action:** Follow up via WhatsApp/email
+- **Status:** Demo video sent Sep 4, waiting for reply on automation interest
+- **Next Action:** Follow up via WhatsApp/email — **OVERDUE** (2 days since demo)
 
 ### Kumaraswamy
 - **Location:** West Bengal, Siligudi, India
@@ -28,20 +30,22 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 
 ### Basavaraj (Jaguar Villa)
 - **Email:** jaguar.villas@gmail.com
-- **Status:** Needs engagement review follow-up
-- **Action:** Request electricity bill for KYC documentation
+- **Status:** Engagement review pending
+- **Action:** Request electricity bill for KYC documentation — **PENDING**
 
 ### Darshan (SeedWise)
 - **Email:** agrosaathi.it@gmail.com
-- **Status:** Awaiting payment
-- **Action:** Payment follow-up
+- **Status:** Payment pending
+- **Action:** Payment follow-up — **PENDING**
 
 ### Sravan Kumar (VNA)
 - **Location:** Hyderabad
 - **Status:** Active client
+- **Services:** GBP, LinkedIn, WhatsApp lead gen (50 students), review automation
 
 ### Alan (Mark Industries)
-- **Status:** Active client
+- **Status:** Converting (free audit sent)
+- **Action:** Follow up on audit response
 
 ### Sanjay (SSVInfra)
 - **Status:** Active client
@@ -51,6 +55,17 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 
 ### Parijat (SoloWarrior)
 - **Status:** Active client
+
+---
+
+## Pipeline Summary
+
+| Metric | Count |
+|--------|-------|
+| Active Clients | 7 |
+| New Leads | 2 |
+| Total Pipeline | 9 |
+| Overdue Follow-ups | 3 |
 
 ---
 
