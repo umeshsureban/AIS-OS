@@ -8,7 +8,7 @@
 - Supplement Engine AIOS on Whop
 - Free audit sent
 
-## Status: Converting
+## Status: Closed
 
 ## Sales Process
 - Free audit sent → Converting via WhatsApp

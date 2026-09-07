@@ -4,7 +4,7 @@
 - **Name:** Parijat
 - **Company:** SoloWarrior
 
-## Status: Active
+## Status: Closed
 
 ## Notes
 - Existing client

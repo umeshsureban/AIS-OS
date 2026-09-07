@@ -45,3 +45,13 @@ Keep it terse. Future-you will thank present-you for capturing the *why*, not ju
 **Decision:** Adapt Herk-2's grill-me skill for the student kit and ship matching Claude/Codex packages. Save every answer to brainstorms/, preserve resumable Q&A history, and update canonical context only with confirmed facts during requested context-building sessions.
 
 **Why:** Onboarding is an initial snapshot. Ongoing interviews capture changing priorities, decisions, and preferences while keeping tentative ideas distinct from current business facts.
+
+## 2026-09-06 — Client Closures + SeedWise Payment
+
+**Decision:** Closed VNA (Sravan), SoloWarrior (Parijat), and Alan (Mark Industries). Recorded SeedWise 2nd payment of ₹50K cash via Praveen Mudhol.
+
+**Why:** User instructed to close these clients. SeedWise payment received in cash, updating from "Payment Pending" to "Active".
+
+**Alternatives considered:** None — user directive.
+
+**Owner:** Umesh

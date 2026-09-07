@@ -4,11 +4,11 @@
 - **Name:** Darshan
 - **Email:** agrosaathi.it@gmail.com
 
-## Status: Payment Pending
+## Status: Active (Payment Received)
 
-## Action Items
-- Follow up on payment
-- Confirm automation deliverables
+## Payment History
+- **2nd Payment:** ₹50,000 (cash received by Praveen Mudhol)
 
 ## Notes
 - Agri-tech focus (SeedWise)
+- Payment completed

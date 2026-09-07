@@ -35,17 +35,8 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 
 ### Darshan (SeedWise)
 - **Email:** agrosaathi.it@gmail.com
-- **Status:** Payment pending
-- **Action:** Payment follow-up — **PENDING**
-
-### Sravan Kumar (VNA)
-- **Location:** Hyderabad
-- **Status:** Active client
-- **Services:** GBP, LinkedIn, WhatsApp lead gen (50 students), review automation
-
-### Alan (Mark Industries)
-- **Status:** Converting (free audit sent)
-- **Action:** Follow up on audit response
+- **Status:** Active — 2nd payment ₹50K received (cash via Praveen Mudhol)
+- **Action:** Confirm automation deliverables
 
 ### Sanjay (SSVInfra)
 - **Status:** Active client
@@ -53,8 +44,20 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 ### Saurabh Divekar
 - **Status:** Active client
 
+---
+
+## Closed Clients
+
+### Sravan Kumar (VNA)
+- **Location:** Hyderabad
+- **Status:** Closed
+- **Services:** GBP, LinkedIn, WhatsApp lead gen (50 students), review automation
+
+### Alan (Mark Industries)
+- **Status:** Closed (free audit sent, no conversion)
+
 ### Parijat (SoloWarrior)
-- **Status:** Active client
+- **Status:** Closed
 
 ---
 
@@ -62,9 +65,10 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 
 | Metric | Count |
 |--------|-------|
-| Active Clients | 7 |
+| Active Clients | 4 |
+| Closed Clients | 3 |
 | New Leads | 2 |
-| Total Pipeline | 9 |
+| Total Pipeline | 6 |
 | Overdue Follow-ups | 3 |
 
 ---

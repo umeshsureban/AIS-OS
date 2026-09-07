@@ -16,7 +16,7 @@
 - **Lists:** Project Closure (5 tasks)
 - **Statuses:** To Do, Planning, In Progress, At Risk, Update Required, On Hold, Complete, Cancelled
 
-## Status: Active
+## Status: Closed
 
 ## Key Metrics
 - 50 students via WhatsApp lead gen
