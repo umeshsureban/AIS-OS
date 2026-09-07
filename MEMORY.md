@@ -2,7 +2,7 @@
 
 This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code, and Codex.
 
-**Last Updated:** 2026-09-06T22:40:00Z (nightly consolidation)
+**Last Updated:** 2026-09-07T04:00:00Z (nightly consolidation)
 
 ---
 
@@ -15,14 +15,14 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 - **Phone:** +61 415 181 698
 - **Deal Stage:** Decision Maker Bought-In (80%)
 - **Status:** Demo video sent Sep 4, waiting for reply on automation interest
-- **Next Action:** Follow up via WhatsApp/email — **OVERDUE** (2 days since demo)
+- **Next Action:** Follow up via WhatsApp/email — **OVERDUE** (3 days since demo)
 
 ### Kumaraswamy
 - **Location:** West Bengal, Siligudi, India
 - **Phone:** +91 9363751502
 - **Deal Stage:** Appointment Scheduled (20%)
 - **Status:** Talking with spiritual Guru, scheduling initial requirements meeting
-- **Next Action:** Follow up via WhatsApp
+- **Next Action:** Follow up via WhatsApp, schedule meeting
 
 ---
 
@@ -73,6 +73,20 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 
 ---
 
+## ⚠️ Data Conflicts Detected
+
+Individual project files disagree with `projects/aitomate-systems.md` summary:
+
+| Client | Individual File Says | Summary Says |
+|--------|---------------------|--------------|
+| VNA (Sravan) | Closed | Active |
+| Alan | Closed | Converting via WhatsApp |
+| SoloWarrior (Parijat) | Closed | Active client |
+
+**Resolution:** Individual project files treated as authoritative (likely more recent). Summary file needs reconciliation.
+
+---
+
 ## Lessons Learned
 
 ### Technical
@@ -90,4 +104,4 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 - Prefers direct action over excessive confirmation
 - Shares info in fragments, expects piecing together
 - Corrects assumptions immediately
-- Wants me to verify data myself rather than asking him
+- Wants me to verify data himself rather than asking
