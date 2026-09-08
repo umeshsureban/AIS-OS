@@ -2,7 +2,7 @@
 
 This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code, and Codex.
 
-**Last Updated:** 2026-09-07T04:00:00Z (nightly consolidation)
+**Last Updated:** 2026-09-08T04:00:00Z (nightly consolidation)
 
 ---
 
@@ -15,14 +15,14 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 - **Phone:** +61 415 181 698
 - **Deal Stage:** Decision Maker Bought-In (80%)
 - **Status:** Demo video sent Sep 4, waiting for reply on automation interest
-- **Next Action:** Follow up via WhatsApp/email — **OVERDUE** (3 days since demo)
+- **Next Action:** Follow up via WhatsApp/email — **OVERDUE** (4 days since demo)
 
 ### Kumaraswamy
 - **Location:** West Bengal, Siligudi, India
 - **Phone:** +91 9363751502
 - **Deal Stage:** Appointment Scheduled (20%)
 - **Status:** Talking with spiritual Guru, scheduling initial requirements meeting
-- **Next Action:** Follow up via WhatsApp, schedule meeting
+- **Next Action:** Follow up via WhatsApp, schedule meeting — **PENDING**
 
 ---
 
@@ -40,6 +40,7 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 
 ### Sanjay (SSVInfra)
 - **Status:** Active client
+- **Sector:** Infrastructure/construction
 
 ### Saurabh Divekar
 - **Status:** Active client
@@ -73,17 +74,17 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 
 ---
 
-## ⚠️ Data Conflicts Detected
+## ⚠️ Data Conflicts Resolved
 
-Individual project files disagree with `projects/aitomate-systems.md` summary:
+Previous consolidation flagged conflicts between individual project files and `projects/aitomate-systems.md`. Individual project files treated as authoritative:
 
-| Client | Individual File Says | Summary Says |
-|--------|---------------------|--------------|
-| VNA (Sravan) | Closed | Active |
-| Alan | Closed | Converting via WhatsApp |
-| SoloWarrior (Parijat) | Closed | Active client |
+| Client | Individual File | Summary Was | Resolution |
+|--------|----------------|-------------|------------|
+| VNA (Sravan) | Closed | Active | Closed ✓ |
+| Alan | Closed | Converting via WhatsApp | Closed ✓ |
+| SoloWarrior (Parijat) | Closed | Active client | Closed ✓ |
 
-**Resolution:** Individual project files treated as authoritative (likely more recent). Summary file needs reconciliation.
+`projects/aitomate-systems.md` summary section is stale and needs manual reconciliation.
 
 ---
 
