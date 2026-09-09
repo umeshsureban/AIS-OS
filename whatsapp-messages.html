@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AITOmate Systems — WhatsApp Follow-Up Messages</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  .copy-btn { transition: all 0.2s; }
+  .copy-btn:hover { transform: scale(1.05); }
+  .copy-btn.copied { background-color: #40BC86 !important; }
+</style>
+</head>
+<body class="bg-gray-900 min-h-screen p-6">
+
+<div class="max-w-2xl mx-auto">
+  <h1 class="text-2xl font-bold text-white mb-2">📱 WhatsApp Follow-Up Messages</h1>
+  <p class="text-gray-400 mb-6">Click the copy button to copy each message</p>
+
+  <!-- Message 1: Jaguar Villa -->
+  <div class="bg-gray-800 rounded-lg p-4 mb-4">
+    <div class="flex justify-between items-start mb-2">
+      <div>
+        <span class="text-green-400 font-semibold">Jaguar Villa — Basavaraj</span>
+        <span class="text-gray-500 text-sm ml-2">KYC docs needed</span>
+      </div>
+      <button onclick="copyMessage('msg1', this)" class="copy-btn bg-blue-600 hover:bg-blue-500 text-white text-sm px-3 py-1 rounded">📋 Copy</button>
+    </div>
+    <p id="msg1" class="text-gray-300 text-sm leading-relaxed">Hi Basavaraj! Hope you're doing well. I wanted to check in on the next steps for Jaguar Villa. We need the electricity bill for KYC documentation to move forward. Could you share that at your earliest convenience? Once that's done, we can finalize the engagement and get started on the automation. Cheers!</p>
+  </div>
+
+  <!-- Message 2: SeedWise -->
+  <div class="bg-gray-800 rounded-lg p-4 mb-4">
+    <div class="flex justify-between items-start mb-2">
+      <div>
+        <span class="text-green-400 font-semibold">SeedWise — Darshan</span>
+        <span class="text-gray-500 text-sm ml-2">Payment received</span>
+      </div>
+      <button onclick="copyMessage('msg2', this)" class="copy-btn bg-blue-600 hover:bg-blue-500 text-white text-sm px-3 py-1 rounded">📋 Copy</button>
+    </div>
+    <p id="msg2" class="text-gray-300 text-sm leading-relaxed">Hi Darshan! Hope things are going well. Thank you for the 2nd payment of ₹50K — received and noted. I wanted to check in on the automation deliverables and see how the field agent app is progressing. Let me know if you need any support or have questions about the next phase. Looking forward to taking AgroSaathi to the next level!</p>
+  </div>
+
+  <!-- Message 3: SSVInfra -->
+  <div class="bg-gray-800 rounded-lg p-4 mb-4">
+    <div class="flex justify-between items-start mb-2">
+      <div>
+        <span class="text-green-400 font-semibold">SSVInfra — Sanjay</span>
+        <span class="text-gray-500 text-sm ml-2">Documentation pending</span>
+      </div>
+      <button onclick="copyMessage('msg3', this)" class="copy-btn bg-blue-600 hover:bg-blue-500 text-white text-sm px-3 py-1 rounded">📋 Copy</button>
+    </div>
+    <p id="msg3" class="text-gray-300 text-sm leading-relaxed">Hi Sanjay! Hope you're doing well. I wanted to follow up on the documentation for SSVInfra. We need some documents from your side to complete the project records. Could you share the relevant materials when you get a moment? Once that's done, we can wrap up the final deliverables. Thanks!</p>
+  </div>
+
+  <!-- Message 4: Saurabh Divekar -->
+  <div class="bg-gray-800 rounded-lg p-4 mb-4">
+    <div class="flex justify-between items-start mb-2">
+      <div>
+        <span class="text-green-400 font-semibold">Saurabh Divekar</span>
+        <span class="text-gray-500 text-sm ml-2">Existing client</span>
+      </div>
+      <button onclick="copyMessage('msg4', this)" class="copy-btn bg-blue-600 hover:bg-blue-500 text-white text-sm px-3 py-1 rounded">📋 Copy</button>
+    </div>
+    <p id="msg4" class="text-gray-300 text-sm leading-relaxed">Hi Saurabh! Hope you're doing well. I wanted to check in and see how things are going on your end. Let me know if there's any support you need or if you'd like to discuss any new automation opportunities. Always happy to help!</p>
+  </div>
+
+  <!-- Message 5: Anand Hiremath -->
+  <div class="bg-gray-800 rounded-lg p-4 mb-4">
+    <div class="flex justify-between items-start mb-2">
+      <div>
+        <span class="text-yellow-400 font-semibold">Anand Hiremath (Lead — 80%)</span>
+        <span class="text-gray-500 text-sm ml-2">Demo sent, waiting</span>
+      </div>
+      <button onclick="copyMessage('msg5', this)" class="copy-btn bg-blue-600 hover:bg-blue-500 text-white text-sm px-3 py-1 rounded">📋 Copy</button>
+    </div>
+    <p id="msg5" class="text-gray-300 text-sm leading-relaxed">Hi Anand! Hope you're doing well. I wanted to follow up on the demo video I sent last week. Let me know if you had a chance to review it and if you have any questions about the automation piece. Would be happy to jump on a call to discuss how we can help your education SaaS. Looking forward to hearing from you!</p>
+  </div>
+
+  <!-- Message 6: Kumaraswamy -->
+  <div class="bg-gray-800 rounded-lg p-4 mb-4">
+    <div class="flex justify-between items-start mb-2">
+      <div>
+        <span class="text-yellow-400 font-semibold">Kumaraswamy (Lead — 20%)</span>
+        <span class="text-gray-500 text-sm ml-2">Meeting scheduling</span>
+      </div>
+      <button onclick="copyMessage('msg6', this)" class="copy-btn bg-blue-600 hover:bg-blue-500 text-white text-sm px-3 py-1 rounded">📋 Copy</button>
+    </div>
+    <p id="msg6" class="text-gray-300 text-sm leading-relaxed">Hi Kumaraswamy! Hope you're doing well. I wanted to check in on the meeting with the spiritual guru. Have you had a chance to schedule the initial requirements discussion? Let me know what works for you and I'll make myself available. Excited to explore how Hermes automation can help!</p>
+  </div>
+
+  <p class="text-gray-500 text-xs text-center mt-6">© 2026 AITOmate Systems</p>
+</div>
+
+<script>
+function copyMessage(id, btn) {
+  const text = document.getElementById(id).innerText;
+  navigator.clipboard.writeText(text).then(() => {
+    btn.classList.add('copied');
+    btn.innerText = '✅ Copied!';
+    setTimeout(() => {
+      btn.classList.remove('copied');
+      btn.innerText = '📋 Copy';
+    }, 2000);
+  });
+}
+</script>
+
+</body>
+</html>
