@@ -12,11 +12,11 @@
 - **Location:** Hyderabad
 - **Services:** GBP, LinkedIn, WhatsApp lead gen (50 students), review automation
 - **ClickUp Space:** Veteran NextGen Academy (90166519546)
-- **Status:** Active
+- **Status:** Closed
 
 ### Alan (Mark Industries)
 - **Services:** Supplement Engine AIOS on Whop
-- **Status:** Free audit sent, converting via WhatsApp
+- **Status:** Closed (free audit sent, no conversion)
 
 ### Jaguar Villa (Basavaraj)
 - **Email:** jaguar.villas@gmail.com
@@ -25,8 +25,8 @@
 
 ### SeedWise (Darshan)
 - **Email:** agrosaathi.it@gmail.com
-- **Status:** Awaiting payment
-- **Action:** Payment follow-up
+- **Status:** Active — 2nd payment ₹50,000 received (cash via Praveen Mudhol)
+- **Action:** Confirm automation deliverables
 
 ### SSVInfra (Sanjay)
 - **Status:** Active client
@@ -35,7 +35,7 @@
 - **Status:** Active client
 
 ### SoloWarrior (Parijat)
-- **Status:** Active client
+- **Status:** Closed
 
 ---
 

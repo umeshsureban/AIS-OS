@@ -2,7 +2,7 @@
 
 This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code, and Codex.
 
-**Last Updated:** 2026-09-08T04:00:00Z (nightly consolidation)
+**Last Updated:** 2026-09-09T04:00:00Z (nightly consolidation)
 
 ---
 
@@ -12,17 +12,18 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 - **Location:** Australia
 - **Company:** Education SaaS
 - **Email:** anandp.hiremath@gmail.com
+- **Additional Email:** anandp.hiremath@googlemail.com
 - **Phone:** +61 415 181 698
 - **Deal Stage:** Decision Maker Bought-In (80%)
-- **Status:** Demo video sent Sep 4, waiting for reply on automation interest
-- **Next Action:** Follow up via WhatsApp/email — **OVERDUE** (4 days since demo)
+- **Status:** Demo video sent Sep 4, engaged for further discussion (Sep 9)
+- **Next Action:** Follow up on demo video, schedule call if interested, prepare proposal — **PENDING**
 
 ### Kumaraswamy
 - **Location:** West Bengal, Siligudi, India
 - **Phone:** +91 9363751502
 - **Deal Stage:** Appointment Scheduled (20%)
-- **Status:** Talking with spiritual Guru, scheduling initial requirements meeting
-- **Next Action:** Follow up via WhatsApp, schedule meeting — **PENDING**
+- **Status:** Going to arrange meeting with his spiritual Guru client (Sep 9)
+- **Next Action:** Schedule meeting for initial requirements discussion, prepare automation proposal — **PENDING**
 
 ---
 
@@ -31,21 +32,26 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 ### Basavaraj (Jaguar Villa)
 - **Email:** jaguar.villas@gmail.com
 - **Status:** Engagement review pending
+- **Sep 9 Update:** Sent WhatsApp message asking for electricity bill
 - **Action:** Request electricity bill for KYC documentation — **PENDING**
 
 ### Darshan (SeedWise)
 - **Email:** agrosaathi.it@gmail.com
-- **Status:** Active — 2nd payment ₹50K received (cash via Praveen Mudhol)
-- **Action:** Confirm automation deliverables
+- **Status:** Active — 2nd payment ₹50,000 received (cash via Praveen Mudhol)
+- **Sep 9 Update:** Sent WhatsApp asking for feedback on app/mobile testing
+- **Action:** Confirm automation deliverables, collect testing feedback — **PENDING**
 
 ### Sanjay (SSVInfra)
-- **Status:** Active client
-- **Sector:** Infrastructure/construction
 - **Primary Email:** sanjay@ssvinfra.net
 - **Projects Email:** projects@ssvinfra.net
+- **Status:** Active — documentation pending
+- **Sep 9 Update:** Sent WhatsApp to new Jalandhar issue email address; Bheemu raised issue of email not accessible
+- **Action:** Collect documentation, resolve email accessibility issue — **PENDING**
 
 ### Saurabh Divekar
 - **Status:** Active client
+- **Sep 9 Update:** Waiting for mobile number by Diwakar representative
+- **Action:** Follow up for mobile number — **PENDING**
 
 ---
 
@@ -72,21 +78,7 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 | Closed Clients | 3 |
 | New Leads | 2 |
 | Total Pipeline | 6 |
-| Overdue Follow-ups | 3 |
-
----
-
-## ⚠️ Data Conflicts Resolved
-
-Previous consolidation flagged conflicts between individual project files and `projects/aitomate-systems.md`. Individual project files treated as authoritative:
-
-| Client | Individual File | Summary Was | Resolution |
-|--------|----------------|-------------|------------|
-| VNA (Sravan) | Closed | Active | Closed ✓ |
-| Alan | Closed | Converting via WhatsApp | Closed ✓ |
-| SoloWarrior (Parijat) | Closed | Active client | Closed ✓ |
-
-`projects/aitomate-systems.md` summary section is stale and needs manual reconciliation.
+| Pending Actions | 6 |
 
 ---
 
