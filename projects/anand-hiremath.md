@@ -16,6 +16,9 @@
 - Waiting for reply on automation interest
 - Follow up via WhatsApp/email
 
+## Updates
+- **Sep 9:** Anand engaged for further discussion on project
+
 ## Next Actions
 1. Follow up on demo video
 2. Schedule call if interested

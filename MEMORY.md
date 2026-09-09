@@ -41,6 +41,8 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 ### Sanjay (SSVInfra)
 - **Status:** Active client
 - **Sector:** Infrastructure/construction
+- **Primary Email:** sanjay@ssvinfra.net
+- **Projects Email:** projects@ssvinfra.net
 
 ### Saurabh Divekar
 - **Status:** Active client

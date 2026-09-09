@@ -12,6 +12,9 @@
 - Scheduling initial requirements meeting
 - Potential customer for Hermes automation
 
+## Updates
+- **Sep 9:** Going to arrange meeting with his client
+
 ## Next Actions
 1. Follow up via WhatsApp
 2. Schedule meeting for initial requirements discussion
