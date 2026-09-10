@@ -2,7 +2,7 @@
 
 This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code, and Codex.
 
-**Last Updated:** 2026-09-09T04:00:00Z (nightly consolidation)
+**Last Updated:** 2026-09-10T00:00:00Z (nightly consolidation)
 
 ---
 
@@ -17,6 +17,7 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 - **Deal Stage:** Decision Maker Bought-In (80%)
 - **Status:** Demo video sent Sep 4, engaged for further discussion (Sep 9)
 - **Next Action:** Follow up on demo video, schedule call if interested, prepare proposal — **PENDING**
+- **⚠️ AGEING:** Demo sent 6 days ago (Sep 4) — follow-up overdue
 
 ### Kumaraswamy
 - **Location:** West Bengal, Siligudi, India
@@ -79,6 +80,7 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 | New Leads | 2 |
 | Total Pipeline | 6 |
 | Pending Actions | 6 |
+| Ageing (>5 days) | 1 (Anand Hiremath) |
 
 ---
 
