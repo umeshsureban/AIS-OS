@@ -11,3 +11,7 @@ brainstorms/
 # Obsidian per-machine UI state
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
+.obsidian/graph.json
+
+# Local editor configuration
+.vscode/
