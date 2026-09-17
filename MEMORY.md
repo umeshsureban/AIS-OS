@@ -2,7 +2,7 @@
 
 This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code, and Codex.
 
-**Last Updated:** 2026-09-10T00:00:00Z (nightly consolidation)
+**Last Updated:** 2026-09-17T19:01:20Z (nightly consolidation)
 
 ---
 
@@ -15,16 +15,17 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 - **Additional Email:** anandp.hiremath@googlemail.com
 - **Phone:** +61 415 181 698
 - **Deal Stage:** Decision Maker Bought-In (80%)
-- **Status:** Demo video sent Sep 4, engaged for further discussion (Sep 9)
-- **Next Action:** Follow up on demo video, schedule call if interested, prepare proposal — **PENDING**
-- **⚠️ AGEING:** Demo sent 6 days ago (Sep 4) — follow-up overdue
+- **Status:** Demo video sent Sep 4; engaged for further discussion Sep 9.
+- **Next Actions:** Follow up on demo video; schedule call if interested; prepare proposal based on requirements — **PENDING**
+- **⚠️ OVERDUE/AGEING:** Demo follow-up is 13 days old; last recorded engagement is 8 days old.
 
 ### Kumaraswamy
 - **Location:** West Bengal, Siligudi, India
 - **Phone:** +91 9363751502
 - **Deal Stage:** Appointment Scheduled (20%)
-- **Status:** Going to arrange meeting with his spiritual Guru client (Sep 9)
-- **Next Action:** Schedule meeting for initial requirements discussion, prepare automation proposal — **PENDING**
+- **Status:** Arranging a meeting with his spiritual Guru client (Sep 9).
+- **Next Actions:** Follow up via WhatsApp; schedule the initial requirements meeting; prepare automation proposal — **PENDING**
+- **⚠️ AGEING:** Last recorded update is 8 days old.
 
 ---
 
@@ -32,27 +33,27 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 
 ### Basavaraj (Jaguar Villa)
 - **Email:** jaguar.villas@gmail.com
-- **Status:** Engagement review pending
-- **Sep 9 Update:** Sent WhatsApp message asking for electricity bill
-- **Action:** Request electricity bill for KYC documentation — **PENDING**
+- **Status:** Engagement review pending; payment/status pending resolution.
+- **Sep 9 Update:** WhatsApp message sent requesting electricity bill.
+- **Actions:** Complete engagement-review follow-up; obtain electricity bill for KYC documentation — **PENDING / AGEING 8 DAYS**
 
 ### Darshan (SeedWise)
 - **Email:** agrosaathi.it@gmail.com
-- **Status:** Active — 2nd payment ₹50,000 received (cash via Praveen Mudhol)
-- **Sep 9 Update:** Sent WhatsApp asking for feedback on app/mobile testing
-- **Action:** Confirm automation deliverables, collect testing feedback — **PENDING**
+- **Status:** Active — second payment of ₹50,000 received in cash via Praveen Mudhol; payment completed.
+- **Sep 9 Update:** WhatsApp sent requesting app/mobile-testing feedback.
+- **Actions:** Confirm automation deliverables; collect testing feedback — **PENDING / AGEING 8 DAYS**
 
 ### Sanjay (SSVInfra)
 - **Primary Email:** sanjay@ssvinfra.net
 - **Projects Email:** projects@ssvinfra.net
-- **Status:** Active — documentation pending
-- **Sep 9 Update:** Sent WhatsApp to new Jalandhar issue email address; Bheemu raised issue of email not accessible
-- **Action:** Collect documentation, resolve email accessibility issue — **PENDING**
+- **Status:** Active — documentation pending.
+- **Sep 9 Update:** WhatsApp sent to the new Jalandhar issue email address; Bheemu reported email-accessibility issue.
+- **Actions:** Collect client documentation; resolve email-accessibility issue — **PENDING / AGEING 8 DAYS**
 
 ### Saurabh Divekar
-- **Status:** Active client
-- **Sep 9 Update:** Waiting for mobile number by Diwakar representative
-- **Action:** Follow up for mobile number — **PENDING**
+- **Status:** Active client.
+- **Sep 9 Update:** Waiting for mobile number from Diwakar representative.
+- **Action:** Follow up for mobile number — **PENDING / AGEING 8 DAYS**
 
 ---
 
@@ -61,10 +62,11 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 ### Sravan Kumar (VNA)
 - **Location:** Hyderabad
 - **Status:** Closed
-- **Services:** GBP, LinkedIn, WhatsApp lead gen (50 students), review automation
+- **Services:** GBP, LinkedIn, WhatsApp lead gen (50 students), review automation.
 
 ### Alan (Mark Industries)
-- **Status:** Closed (free audit sent, no conversion)
+- **Status:** Closed (free audit sent, no conversion).
+- **Data conflict:** Project file also lists a follow-up on the audit response as the next step; confirm whether this deal should be reopened or the action retired.
 
 ### Parijat (SoloWarrior)
 - **Status:** Closed
@@ -77,10 +79,12 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 |--------|-------|
 | Active Clients | 4 |
 | Closed Clients | 3 |
-| New Leads | 2 |
+| Open Deals / New Leads | 2 |
 | Total Pipeline | 6 |
-| Pending Actions | 6 |
-| Ageing (>5 days) | 1 (Anand Hiremath) |
+| Open Action Items (active clients + open deals) | 13 |
+| Additional Action on Closed Deal Requiring Decision | 1 (Alan) |
+| Ageing Action Groups (>5 days since recorded update) | 6 |
+| Explicitly Overdue Item | 1 (Anand demo follow-up) |
 
 ---
 
@@ -95,7 +99,7 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 - Address Umesh ji as "Umesh ji" — never "Sir Ji" or "Surji"
 - Respectful Hindi: "आप" + "Umesh ji"
 - Respectful Kannada: "ನೀವು" + "Umesh ji"
-- Never informal ("तुम"/"ನಿನ್ನு")
+- Never informal ("तुम"/"ನಿನ್ನು")
 
 ### Preferences
 - Prefers direct action over excessive confirmation
