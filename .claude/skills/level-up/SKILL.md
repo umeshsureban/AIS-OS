@@ -1,6 +1,6 @@
 ---
 name: level-up
-description: Use weekly to find and ship one new automation. Walks the 3Ms interview — Mindset (find the candidate) → Method (scope one) → Machine (build it). Trigger on "let's level up", "what should I automate next", "find me leverage this week", or as a Friday ritual. One run = one shipped artifact.
+description: Use when someone asks to level up their AIOS, close an audit gap, find what to automate next, or improve one workflow. Walks the 3Ms from choosing the constraint to shipping one useful artifact or verified repair.
 ---
 
 > *Adapted from The Three Ms of AI™. © 2026 Nate Herk. All rights reserved.*
@@ -26,6 +26,8 @@ This is the brain-rewire mechanism. The kit doesn't need cron jobs to anchor beh
 
 ## Inputs the skill reads
 
+First read the applicable operating manual. The paths below are starter-kit defaults: resolve priorities, identity, and connections through the current project's declared routes when it uses different locations. Do not create duplicate context files because these defaults are absent. Use `references/3ms-framework.md` if present; otherwise read the bundled [3Ms framework](references/3ms-framework.md). Ask only for information unavailable in the existing sources.
+
 - `context/priorities.md` — what the user said matters
 - `context/about-me.md` — top_pain, role
 - `connections.md` — what's reachable, by what mechanism
@@ -35,6 +37,16 @@ This is the brain-rewire mechanism. The kit doesn't need cron jobs to anchor beh
 - Recent `audits/audit-{date}.md` if present
 
 ## Execution — three phases
+
+### Coming from an audit
+
+If the user supplies an `/audit` finding or a recent report is available, carry its evidence, affected route/workflow, and completion check into Phase 1. Use that gap as the first candidate; ask only for missing context instead of restarting a generic interview. Do not chase points or assume an unverified connection is broken.
+
+For a routing-only fix, use `/link` when available and the user has requested the edit. For a selected workflow repair, improve that existing workflow rather than creating a duplicate skill. A verified repair counts as the one artifact for this run. Preserve the Method reasoning, relevant scope/permissions, and validation steps. A practical measure can be fewer failed retrievals, fewer missed runs, or less time finding a source.
+
+For repairs, skip creation-only scaffolding. The scaffold headers below apply to new workflow artifacts, never to operating manuals or routing indexes.
+
+Close with the repair's acceptance evidence and recommend `/audit` again. Do not claim a higher score until the new audit verifies it; repeated-use and due-run evidence must accumulate through actual use.
 
 ### Phase 1 — Mindset interview (find the candidate)
 
@@ -132,7 +144,7 @@ Surface the Machine principles when scaffolding:
 Every `/level-up` run produces:
 
 1. **One `decisions/log.md` entry** — dated, with the Method spec
-2. **One scaffolded artifact** — prompt, skill, or agent file
+2. **One delivered improvement**: a prompt, skill, or agent file, or a verified repair of the selected existing workflow/routing
 3. **A one-screen close** — what was scoped, what was built, and the Bike Method Phase 1 reminder
 
 ## Critical implementation rules
@@ -144,7 +156,7 @@ Every `/level-up` run produces:
 5. **Boring-is-Beautiful default in Machine handoff.** Default = highest non-AI option.
 6. **Tie-to-KPI is mandatory.** If user can't name bucket + metric, skill stops.
 7. **Bike Method ships into every artifact.** `bike-method-phase: 1` in frontmatter.
-8. **Read-only on user files except `decisions/log.md` and the new artifact.** Don't modify other existing files.
+8. **Limit edits to `decisions/log.md` and the selected artifact.** An explicitly selected audit repair may update its existing workflow or routing files; preserve unrelated content. Other files remain read-only.
 9. **Trademark + attribution on output.** Every report and every scaffolded artifact references the framework.
 
 ## Verification (for the implementer)
