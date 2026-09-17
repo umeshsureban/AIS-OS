@@ -1,8 +1,8 @@
 # Brain Vault — Authority Boundaries
 
-# This file controls which tools can write to which paths.
-# Each tool gets a set of path prefixes it's allowed to modify.
-# Tools can read everything but only write to their declared prefixes.
+# This file declares the write policy each AI runtime must respect.
+# It is an instruction-level policy, not a filesystem ACL or technical sandbox.
+# Each tool can read the vault but should only write to its declared prefixes.
 
 write_prefixes:
   # Hermes Agent — always-on runtime

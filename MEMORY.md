@@ -2,7 +2,7 @@
 
 This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code, and Codex.
 
-**Last Updated:** 2026-09-17T19:01:20Z (nightly consolidation)
+**Last Updated:** 2026-09-17T20:42:26Z (manual authority reconciliation)
 
 ---
 
@@ -66,7 +66,7 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 
 ### Alan (Mark Industries)
 - **Status:** Closed (free audit sent, no conversion).
-- **Data conflict:** Project file also lists a follow-up on the audit response as the next step; confirm whether this deal should be reopened or the action retired.
+- **Follow-up:** Retired when the deal was closed on 2026-09-06.
 
 ### Parijat (SoloWarrior)
 - **Status:** Closed
@@ -82,7 +82,7 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 | Open Deals / New Leads | 2 |
 | Total Pipeline | 6 |
 | Open Action Items (active clients + open deals) | 13 |
-| Additional Action on Closed Deal Requiring Decision | 1 (Alan) |
+| Additional Action on Closed Deal Requiring Decision | 0 |
 | Ageing Action Groups (>5 days since recorded update) | 6 |
 | Explicitly Overdue Item | 1 (Anand demo follow-up) |
 

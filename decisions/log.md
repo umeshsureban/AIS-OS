@@ -61,3 +61,19 @@ Keep it terse. Future-you will thank present-you for capturing the *why*, not ju
 - [Lesson]: Hermes drift protection skips unpinned cron jobs after the global inference provider or model changes; pin each intended job explicitly after a model migration.
 - [Decision]: Supersede the temporary Astra pin and prohibit Astra for Hermes scheduled jobs. Assign 6 lightweight jobs to GPT-5.6 Luna, 9 business workflow jobs to GPT-5.6 Terra, and the meeting-intelligence pipeline to GPT-5.6 Sol.
 - [Why]: Scheduled work should use the lowest-cost model tier that reliably matches its complexity; explicit pins also prevent drift protection from skipping jobs after global model changes.
+
+## 2026-09-18 — Shared-brain authority repair
+
+**Decision:** Use one deterministic authority ladder across Claude, Codex, and Hermes: live systems for external records, `MEMORY.md` for the current cross-tool summary, project pages for detail, the decision log for rationale, and context pages for stable facts. Remove volatile status copies from routing files.
+
+**Why:** The same Git vault was synchronized, but duplicated deal and scheduler facts could still produce different answers. Elimination is the right first step: remove duplicate state instead of automating another synchronization layer.
+
+**Process:** Audit finding triggers the repair; canonical files supply current truth; routing, context, index, and connection files are reconciled; deterministic checks compare manuals, resolve paths, scan duplicate headings, and sample current facts; the updated vault is the destination.
+
+**Autonomy:** L1, human-reviewed repair. Repository files may be committed and synchronized; no client-facing app writes, sends, posts, or account changes.
+
+**KPI:** Cut sampled cross-runtime current-state conflicts from two confirmed conflicts to zero and make every declared concrete route resolve. Bucket: lower operating cost through fewer wrong-answer corrections.
+
+**Alternatives considered:** Keep multiple summaries synchronized or add another cache. Rejected because volatile duplicates create maintenance work and source ambiguity.
+
+**Framework:** Adapted from The Three Ms of AI™ © 2026 Nate Herk.

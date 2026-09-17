@@ -1,5 +1,7 @@
 # Brain Vault — Complete Implementation Guide
 
+> Historical implementation guide. For current operating state and routes, use `AGENTS.md`/`CLAUDE.md`, `.hermes.md`, `MEMORY.md`, `connections.md`, and `_index.md`. Do not treat embedded status, counts, paths outside the Hermes container, or scheduler examples here as current evidence.
+
 **Date:** September 5, 2026  
 **Author:** Maya (Hermes Agent) for Umesh ji  
 **Version:** 1.0  

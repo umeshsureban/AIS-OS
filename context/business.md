@@ -32,6 +32,10 @@
 - **n8n:** n8n.aitomate.cloud, 200+ workflows
 - **Subdomains:** veteran (VNA), voomai, dhara, launch
 
+## Automation Preference
+- Existing n8n workflows remain part of the operating stack.
+- For new work, prefer webhooks, cron, and Composio where they are simpler and more reliable.
+
 ## Secondary Ventures
 - MyDream Yatra (mdreamyatra.in)
 - Mystic Yogi (mysticsyogi.wordpress.com)

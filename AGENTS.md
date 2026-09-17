@@ -65,3 +65,12 @@ All tools share `MEMORY.md`. Hermes Agent, Claude Code, and Codex all read and w
 - Client statuses
 - Lessons learned
 - Communication preferences
+
+Use this authority order when sources overlap:
+1. Live connected systems for externally changing records such as tasks, messages, meetings, and CRM data.
+2. `MEMORY.md` for the latest cross-tool summary and current operating state.
+3. `projects/` for detailed client history, deliverables, and next steps.
+4. `decisions/log.md` for decisions and their rationale.
+5. `context/` for stable identity, business, and preference information.
+
+Do not copy volatile deal, client, or scheduler status into routing files. Link to the authoritative source instead. If two sources conflict, report the conflict and prefer the higher source in this list until it is reconciled.

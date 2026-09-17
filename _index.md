@@ -10,6 +10,7 @@
 - [MEMORY.md](MEMORY.md) — Shared memory (deals, clients, lessons)
 - [CLAUDE.md](CLAUDE.md) — Claude Code routing
 - [AGENTS.md](AGENTS.md) — Codex routing (identical to CLAUDE.md)
+- [.hermes.md](.hermes.md) — Hermes routing bridge
 - [brain.yaml](brain.yaml) — Authority boundaries
 - [connections.md](connections.md) — Connected systems registry
 
@@ -29,36 +30,39 @@
 - [solowarrior.md](projects/solowarrior.md) — SoloWarrior (Parijat)
 - [anand-hiremath.md](projects/anand-hiremath.md) — Anand Hiremath (AU)
 - [kumaraswamy.md](projects/kumaraswamy.md) — Kumaraswamy (IN)
+- [showcase.md](projects/showcase.md) — AITOmate systems and demo inventory
 
 ### 📚 References
 - [3ms-framework.md](references/3ms-framework.md) — Nate Herk's 3Ms
 - [4cs-framework.md](references/4cs-framework.md) — Nate Herk's 4Cs
+- [voice.md](references/voice.md) — Communication style and external-draft guardrails
 
 ### 📝 Decisions & History
 - [decisions/log.md](decisions/log.md) — Append-only decision log
 
 ### 📥 Content Folders
-- `raw/` — Drop source material here (articles, transcripts, notes)
-- `wiki/` — Auto-generated cross-linked pages
+- `raw/` — Created on first source import; drop articles, transcripts, and notes here
+- `wiki/` — Created when cross-linked pages are first generated
+- `brainstorms/` — Created by `/grill-me` on its first interview capture
 - `archives/` — Old files (don't delete, move here)
 
 ---
 
-## Vault Stats
+## Source Authority
 
-| Metric | Count |
-|--------|-------|
-| Total .md files | 23 |
-| Active clients | 7 |
-| New leads | 2 |
-| Projects | 10 |
-| Skills | 3 (/onboard, /audit, /level-up) |
+1. Live connected systems for externally changing records
+2. `MEMORY.md` for the latest cross-tool operating summary
+3. `projects/` for detailed client history and next steps
+4. `decisions/log.md` for decisions and rationale
+5. `context/` for stable identity, business, and preferences
+
+Counts are intentionally omitted because they become stale. Use the directory contents and canonical current sources instead.
 
 ---
 
 ## How to Use This Vault
 
-1. **Drop sources** in `raw/` folder
+1. **Drop sources** in `raw/` after creating it on first use
 2. **Ingest** via Claude Code or Hermes Agent
 3. **Auto-generate** wiki pages in `wiki/`
 4. **Browse** in Obsidian for graph view
@@ -66,5 +70,4 @@
 
 ---
 
-*Last updated: September 4, 2026*
-*By: Maya (Hermes Agent) for Umesh ji*
+*Routes verified: September 18, 2026*

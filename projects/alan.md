@@ -12,7 +12,7 @@
 
 ## Sales Process
 - Free audit sent → Converting via WhatsApp
-- Next step: Follow up on audit response
+- Follow-up on the audit response was retired when the deal was closed on 2026-09-06.
 
 ## Notes
 - Whop platform

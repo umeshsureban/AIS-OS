@@ -25,7 +25,7 @@ Read `references/3ms-framework.md` once. It's how Umesh ji thinks about AI work.
 - `references/` — frameworks, voice samples, API guides as you connect tools
 - `connections.md` — registry of every system your AIOS can reach
 - `decisions/log.md` — append-only record of decisions and why
-- `brainstorms/` - Dated interview captures and resume points. Read relevant captures on demand; confirmed current context belongs in its canonical page.
+- `brainstorms/` — dated interview captures and resume points. Read relevant captures on demand; confirmed current context belongs in its canonical page.
 - `audits/` — dated audit reports and finding history; point-in-time evidence, not live business state
 - `archives/` — old stuff. Don't delete. Move here.
 - `MEMORY.md` — shared memory layer (all tools read this)
@@ -65,3 +65,12 @@ All tools share `MEMORY.md`. Hermes Agent, Claude Code, and Codex all read and w
 - Client statuses
 - Lessons learned
 - Communication preferences
+
+Use this authority order when sources overlap:
+1. Live connected systems for externally changing records such as tasks, messages, meetings, and CRM data.
+2. `MEMORY.md` for the latest cross-tool summary and current operating state.
+3. `projects/` for detailed client history, deliverables, and next steps.
+4. `decisions/log.md` for decisions and their rationale.
+5. `context/` for stable identity, business, and preference information.
+
+Do not copy volatile deal, client, or scheduler status into routing files. Link to the authoritative source instead. If two sources conflict, report the conflict and prefer the higher source in this list until it is reconciled.
