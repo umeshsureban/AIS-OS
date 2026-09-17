@@ -93,7 +93,9 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 ### Technical
 - YouTube uploads via Composio MCP require H.264 Baseline Profile 3.0 — High Profile fails with 'Can't process file'
 - Instagram posting via Composio MCP fails — S3 staging URLs not accessible during publish step
-- Host VPS crontab is empty — YouTube sync is broken
+- Host VPS root crontab is populated; Hermes application jobs run through the internal Docker scheduler, not Linux cron
+- Hermes cron jobs must be explicitly pinned after a global provider/model change or drift protection skips them to prevent unintended spend
+- Hermes cron model policy: Luna for lightweight checks/reminders, Terra for multi-tool business workflows, and Sol only for the meeting-intelligence pipeline; do not use Astra for scheduled jobs
 
 ### Communication
 - Address Umesh ji as "Umesh ji" — never "Sir Ji" or "Surji"

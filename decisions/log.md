@@ -55,3 +55,9 @@ Keep it terse. Future-you will thank present-you for capturing the *why*, not ju
 **Alternatives considered:** None — user directive.
 
 **Owner:** Umesh
+
+## 2026-09-17
+- [Action]: Repaired Hermes job `nightly-hermes-vps-sync` (`830f2997467c`) by pinning it to `openai-codex` / `gpt-6-astra`; manual verification completed successfully and the VPS repository is clean and aligned with `origin/main`.
+- [Lesson]: Hermes drift protection skips unpinned cron jobs after the global inference provider or model changes; pin each intended job explicitly after a model migration.
+- [Decision]: Supersede the temporary Astra pin and prohibit Astra for Hermes scheduled jobs. Assign 6 lightweight jobs to GPT-5.6 Luna, 9 business workflow jobs to GPT-5.6 Terra, and the meeting-intelligence pipeline to GPT-5.6 Sol.
+- [Why]: Scheduled work should use the lowest-cost model tier that reliably matches its complexity; explicit pins also prevent drift protection from skipping jobs after global model changes.
