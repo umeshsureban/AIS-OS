@@ -1,0 +1,7 @@
+interface:
+  display_name: "Meeting Intelligence"
+  short_description: "Review Fathom meetings before distribution"
+  default_prompt: "Use $meeting-intelligence to check for new meetings and prepare review packets."
+policy:
+  allow_implicit_invocation: true
+

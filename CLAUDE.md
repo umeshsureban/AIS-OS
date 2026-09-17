@@ -18,6 +18,7 @@ Read `references/3ms-framework.md` once. It's how Umesh ji thinks about AI work.
 - `/link`: Link a project, file, folder, or source into the right operating-manual route or index.
 - `/3d-brain`: Choose a brain name and categories, then build a local 3D knowledge globe with Cinema and interactive growth replay. Uses selected local files and the bundled app template.
 - `/level-up` — Weekly 3Ms interview. Find one automation, scope it, ship it. One per week.
+- `/meeting-intelligence` — Prepare Fathom meeting packets in Google Drive, request Telegram review, and distribute only after an exact approval token.
 
 ## Where things live
 

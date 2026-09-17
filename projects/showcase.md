@@ -33,7 +33,7 @@
 | **n8n Workflows** | 200+ workflows built and deployed |
 | **Composio MCP Stack** | HubSpot, ClickUp, LinkedIn, Gmail, Google Drive, YouTube, Instagram, Facebook, WhatsApp — all wired |
 | **Telegram-Hermes Bridge** | Full agent control via Telegram — tasks, memory, cron jobs, delivery |
-| **Meeting Intelligence** | Fathom → transcript → summary → Google Drive → Telegram approval → email distribution |
+| **Meeting Intelligence** | Bike Phase 1: Fathom → transcript + summary + actions → Google Drive → exact-token Telegram approval → email distribution. Shared skill built; first live-content run pending authorization. |
 | **Brain Vault Sync** | Nightly GitHub sync, morning briefs, weekly reviews, health checks — all cron-automated |
 | **Daily Morning Brief** | ClickUp overdue + HubSpot stale deals → Telegram at 7:30 AM IST |
 | **Weekly Pipeline Follow-Up** | HubSpot stale deal detection → draft follow-ups for approval |

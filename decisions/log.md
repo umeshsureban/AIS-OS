@@ -77,3 +77,19 @@ Keep it terse. Future-you will thank present-you for capturing the *why*, not ju
 **Alternatives considered:** Keep multiple summaries synchronized or add another cache. Rejected because volatile duplicates create maintenance work and source ambiguity.
 
 **Framework:** Adapted from The Three Ms of AI™ © 2026 Nate Herk.
+
+## 2026-09-18 — Supervised meeting intelligence
+
+**Decision:** Build Bike Phase 1 as one shared `/meeting-intelligence` skill. Poll Fathom with a 48-hour overlap, deduplicate by recording ID, create a complete packet in Google Drive, and ask for Telegram review. Distribution requires the exact token `APPROVE MI-<recording_id>`; `SKIP MI-<recording_id>` closes a packet without sending.
+
+**Why:** Meeting notes and actions need a reliable path without risking unreviewed client communication. Eliminate duplicate scripts and senders, automate packet preparation, and keep client-facing distribution at human-approved L1 autonomy. Internal-only meetings may create packets but cannot be distributed.
+
+**Method:** Trigger: pinned Hermes cron. Data: Fathom meeting metadata, summary, transcript, invitees, and client mapping. Transform: normalized summary, transcript, action items, open questions, and recipient preview. Decision: exact approval or skip token. Destination: Google Drive packet, Telegram review card, then one Gmail message per stored external invitee; ClickUp is optional only when a mapping exists.
+
+**KPI:** Packet ready within 15 minutes of a completed meeting, zero missed action items in reviewed packets, and zero unapproved distributions.
+
+**Alternatives considered:** Fully automatic distribution or a second Telegram sender. Rejected because they increase communication risk and duplicate the Hermes delivery channel.
+
+**Owner:** Umesh
+
+**Framework:** Adapted from The Three Ms of AI™ © 2026 Nate Herk.
