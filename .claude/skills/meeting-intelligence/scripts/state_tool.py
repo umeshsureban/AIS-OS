@@ -205,6 +205,7 @@ def command_prepare(args: argparse.Namespace) -> dict[str, Any]:
         **payload,
         "recording_id": recording_id,
         "approval_token": f"MI-{recording_id}",
+        "approval_notification": {"status": "pending"},
         "distribution_allowed": bool(payload["participant_emails"]),
         "status": "pending_approval",
         "created_at": created_at,

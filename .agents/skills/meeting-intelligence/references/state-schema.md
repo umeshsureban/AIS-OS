@@ -33,7 +33,9 @@ Required before approval:
 - `drive_folder_id`, `drive_link`, and `artifact_file_ids` containing `summary`, `transcript`, and `action_items`.
 - `created_at`, `updated_at`.
 
-Optional fields include `summary_preview`, `action_item_count`, `open_question_count`, `attempt_id`, `message_ids`, `delivered_at`, `skipped_at`, and `last_error`.
+Optional fields include `summary_preview`, `action_item_count`, `open_question_count`, `approval_notification`, `attempt_id`, `message_ids`, `delivered_at`, `skipped_at`, and `last_error`.
+
+`approval_notification` records `pending`, `sent`, or `failed`. A sent notification includes its Telegram `message_id`; a failed notification includes a sanitized error. Do not automatically resend a card marked sent.
 
 ## Allowed transitions
 

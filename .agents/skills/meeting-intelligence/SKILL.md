@@ -31,7 +31,7 @@ Choose one mode from the request. If the request is ambiguous, default to `statu
 - Google Drive stores review packets under `Meeting Intelligence/{Client}/{YYYY-MM-DD}_{safe-title}_{recording-id}/`.
 - `/opt/data/meeting-watcher-state.json` is the runtime state on Hermes.
 - `/opt/data/ais-os-clone/.agents/skills/meeting-intelligence/scripts/state_tool.py` performs atomic, validated approval-state transitions on Hermes.
-- Hermes cron delivery is the Telegram notification path. In a scheduled run, return the approval card as the final response; do not call a second Telegram sender.
+- `scripts/send_approval_card.py` is the sole Telegram review-card sender. It uses a one-time reply keyboard, so tapping a button sends the exact audited command back through the normal Hermes gateway.
 
 Read [references/state-schema.md](references/state-schema.md) before changing state or handling approval.
 
@@ -46,12 +46,13 @@ Read [references/state-schema.md](references/state-schema.md) before changing st
 7. Find or create the deterministic Drive folder containing the recording ID. Before creating each file, search that exact parent for the intended filename. Reuse an existing match instead of duplicating it.
 8. Create three files: `Summary.md`, `Transcript.md`, and `Action_Items.md`. The summary must distinguish explicit decisions from inferred suggestions. Action items need owner, due date, and confidence when available; use `Unassigned` or `Not stated` rather than guessing.
 9. Write a payload JSON outside the repository and call `state_tool.py prepare`. Store Drive folder/file IDs, participant names/emails, counts, and a short non-sensitive preview. Do not store the full transcript in state. A successful prepare automatically removes the same ID from the legacy `pending_delivery` queue; failures leave it untouched.
-10. Return one compact approval card per meeting with Drive link, recipient list, action/open-question counts, and exact commands:
+10. Send one compact approval card per meeting with `/opt/hermes/.venv/bin/python /opt/data/ais-os-clone/.agents/skills/meeting-intelligence/scripts/send_approval_card.py --state /opt/data/meeting-watcher-state.json --recording-id <recording_id>`. The card includes the Drive link, recipient list, action/open-question counts, and reply-keyboard commands:
    - `APPROVE MI-<recording_id>`
    - `SKIP MI-<recording_id>`
+    Internal-only meetings receive only the Skip button. The sender records the Telegram message ID and refuses duplicate cards unless `--retry` is explicitly supplied after confirming the original is missing.
 11. Advance `last_check` only after the poll completes with the state tool's `--state /opt/data/meeting-watcher-state.json touch-check` command. Failed meetings remain unprocessed and must be retried from the overlap window.
 
-If no new meetings exist, update `last_check` and return exactly `[SILENT]` during cron execution.
+After cards are sent, or if no new meetings exist, update `last_check` and return exactly `[SILENT]` during cron execution. This prevents the cron delivery layer from sending a second plain-text copy.
 
 ## Approval workflow
 
@@ -73,6 +74,7 @@ If no new meetings exist, update `last_check` and return exactly `[SILENT]` duri
 - Never change Fathom, Drive, Gmail, ClickUp, or Telegram connections as part of a run.
 - Never infer recipients from transcript text. Use stored Fathom invitee emails only.
 - Never email Umesh ji as an external participant and never send to an empty recipient set.
+- Never construct custom Telegram callback handlers for this workflow. Reply-keyboard taps must re-enter Hermes as the exact normal text commands above, preserving gateway authorization and state validation.
 - Never overwrite terminal states (`delivered` or `skipped`) or reuse a completed approval token.
 - Preserve raw provider errors in runtime logs but keep credentials, cursors, and transcript content out of repository files and chat summaries.
 - A partial packet is `error`, not `pending_approval`. Approval is available only when all required Drive artifacts are present.
@@ -82,4 +84,5 @@ If no new meetings exist, update `last_check` and return exactly `[SILENT]` duri
 - `python scripts/test_state_tool.py` passes.
 - Dry-run confirms Fathom and Drive connectivity without reading meeting content.
 - A synthetic meeting can move `pending_approval → sending → delivered` and `pending_approval → skipped`, while wrong or repeated tokens fail.
+- `python scripts/test_send_approval_card.py` passes, and a synthetic Telegram card visibly contains reply buttons without exposing meeting content.
 - The Hermes cron is pinned to its intended provider/model, points at the AIS-OS workdir, has this skill attached, and is paused until Umesh ji authorizes the first live-content run.
