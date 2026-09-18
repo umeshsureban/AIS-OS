@@ -40,12 +40,12 @@ Read [references/state-schema.md](references/state-schema.md) before changing st
 1. Load and validate the state with `python /opt/data/ais-os-clone/.agents/skills/meeting-intelligence/scripts/state_tool.py --state /opt/data/meeting-watcher-state.json validate`.
 2. Use Composio discovery to confirm active Fathom and Google Drive connections. Use the configured accounts; never place account IDs or credentials in committed files.
 3. List Fathom meetings using a 48-hour overlap before `last_check`. Keep pagination filters stable and follow `next_cursor` until empty or all meetings in the overlap are collected.
-4. Ignore any `recording_id` already present in `processed_ids` or `distribution`.
+4. Ignore any `recording_id` already present in `distribution`. Normally also ignore `processed_ids`, but rehydrate IDs still present in the legacy `pending_delivery` queue even if they fall outside the 48-hour window. Treat their stored metadata as untrusted hints and rebuild all required artifacts before approval.
 5. For each new meeting, fetch its Fathom summary and transcript. Do not send either to a remote workbench or unrelated processor without explicit permission.
 6. Exclude Umesh ji from external recipients. Resolve the first matching participant email through the client mapping; otherwise use `Unsorted`.
 7. Find or create the deterministic Drive folder containing the recording ID. Before creating each file, search that exact parent for the intended filename. Reuse an existing match instead of duplicating it.
 8. Create three files: `Summary.md`, `Transcript.md`, and `Action_Items.md`. The summary must distinguish explicit decisions from inferred suggestions. Action items need owner, due date, and confidence when available; use `Unassigned` or `Not stated` rather than guessing.
-9. Write a payload JSON outside the repository and call `state_tool.py prepare`. Store Drive folder/file IDs, participant names/emails, counts, and a short non-sensitive preview. Do not store the full transcript in state.
+9. Write a payload JSON outside the repository and call `state_tool.py prepare`. Store Drive folder/file IDs, participant names/emails, counts, and a short non-sensitive preview. Do not store the full transcript in state. A successful prepare automatically removes the same ID from the legacy `pending_delivery` queue; failures leave it untouched.
 10. Return one compact approval card per meeting with Drive link, recipient list, action/open-question counts, and exact commands:
    - `APPROVE MI-<recording_id>`
    - `SKIP MI-<recording_id>`

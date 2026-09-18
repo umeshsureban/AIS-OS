@@ -19,6 +19,8 @@ The file is private runtime state. It is not committed to AIS-OS.
 
 Existing top-level keys not owned by this workflow must be preserved.
 
+Legacy state may contain a top-level `pending_delivery` object. Status reports expose unmatched entries with a `legacy_` prefix. Poll mode must rebuild those packets even when their IDs are already in `processed_ids`; `prepare` removes one legacy entry only after all new artifact IDs and recipient data have validated.
+
 ## Distribution entry
 
 Required before approval:

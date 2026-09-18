@@ -152,6 +152,20 @@ def command_status(args: argparse.Namespace) -> dict[str, Any]:
         status = entry.get("status", "unknown")
         counts[status] = counts.get(status, 0) + 1
         meetings.append({"recording_id": recording_id, "title": entry.get("title"), "status": status})
+    legacy_pending = state.get("pending_delivery", {})
+    if isinstance(legacy_pending, dict):
+        for recording_id, entry in legacy_pending.items():
+            recording_id = canonical_id(recording_id)
+            if recording_id in state["distribution"]:
+                continue
+            raw_status = entry.get("status", "pending") if isinstance(entry, dict) else "pending"
+            status = f"legacy_{raw_status}"
+            counts[status] = counts.get(status, 0) + 1
+            meetings.append({
+                "recording_id": recording_id,
+                "title": entry.get("title") if isinstance(entry, dict) else None,
+                "status": status,
+            })
     return {"counts": counts, "meetings": meetings}
 
 
@@ -188,6 +202,9 @@ def command_prepare(args: argparse.Namespace) -> dict[str, Any]:
     validate_entry(recording_id, entry)
     state["schema_version"] = 2
     state["distribution"][recording_id] = entry
+    legacy_pending = state.get("pending_delivery")
+    if isinstance(legacy_pending, dict):
+        legacy_pending.pop(recording_id, None)
     processed_value: Any = int(recording_id)
     if processed_value not in state["processed_ids"] and recording_id not in state["processed_ids"]:
         state["processed_ids"].append(processed_value)

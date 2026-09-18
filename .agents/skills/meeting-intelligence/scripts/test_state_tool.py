@@ -76,10 +76,24 @@ def main() -> None:
         assert prepared_internal["status"] == "pending_approval"
         run("--state", str(state), "claim", "--recording-id", "303", "--token", "MI-303", expect=2)
 
+        legacy_state = json.loads(state.read_text(encoding="utf-8"))
+        legacy_state["pending_delivery"] = {
+            "404": {"title": "Legacy Synthetic Meeting", "status": "awaiting_telegram_connection"}
+        }
+        state.write_text(json.dumps(legacy_state), encoding="utf-8")
+        legacy_status = run("--state", str(state), "status")
+        assert legacy_status["counts"]["legacy_awaiting_telegram_connection"] == 1
+
+        legacy_payload = root / "meeting-404.json"
+        legacy_payload.write_text(json.dumps(payload(404)), encoding="utf-8")
+        run("--state", str(state), "prepare", "--payload", str(legacy_payload))
+        migrated_state = json.loads(state.read_text(encoding="utf-8"))
+        assert "404" not in migrated_state["pending_delivery"]
+
         validated = run("--state", str(state), "validate")
-        assert validated == {"distribution_count": 3, "ok": True}
+        assert validated == {"distribution_count": 4, "ok": True}
         status = run("--state", str(state), "status")
-        assert status["counts"] == {"delivered": 1, "pending_approval": 1, "skipped": 1}
+        assert status["counts"] == {"delivered": 1, "pending_approval": 2, "skipped": 1}
         touched = run("--state", str(state), "touch-check", "--timestamp", "2026-09-18T12:00:00Z")
         assert touched == {"last_check": "2026-09-18T12:00:00Z", "ok": True}
         run("--state", str(state), "touch-check", "--timestamp", "not-a-time", expect=2)
