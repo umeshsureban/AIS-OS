@@ -137,7 +137,18 @@ def command_status(args: argparse.Namespace) -> dict[str, Any]:
         recording_id = canonical_id(args.recording_id)
         entry = state["distribution"].get(recording_id)
         if not entry:
-            raise ValueError(f"meeting {recording_id} not found")
+            legacy_pending = state.get("pending_delivery", {})
+            legacy = legacy_pending.get(recording_id) if isinstance(legacy_pending, dict) else None
+            if not isinstance(legacy, dict):
+                raise ValueError(f"meeting {recording_id} not found")
+            return {
+                "recording_id": recording_id,
+                "title": legacy.get("title"),
+                "meeting_date": legacy.get("meeting_date") or legacy.get("date"),
+                "status": f"legacy_{legacy.get('status', 'pending')}",
+                "drive_link": legacy.get("drive_link") or (legacy.get("drive_links") or {}).get("root"),
+                "recipient_count": 0,
+            }
         return {
             "recording_id": recording_id,
             "title": entry.get("title"),

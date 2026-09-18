@@ -83,6 +83,8 @@ def main() -> None:
         state.write_text(json.dumps(legacy_state), encoding="utf-8")
         legacy_status = run("--state", str(state), "status")
         assert legacy_status["counts"]["legacy_awaiting_telegram_connection"] == 1
+        legacy_detail = run("--state", str(state), "status", "--recording-id", "404")
+        assert legacy_detail["status"] == "legacy_awaiting_telegram_connection"
 
         legacy_payload = root / "meeting-404.json"
         legacy_payload.write_text(json.dumps(payload(404)), encoding="utf-8")
