@@ -7,7 +7,7 @@
 ## Status: Active (Payments Received)
 
 ## Payments
-- **1st Payment:** Amount not recorded
+- **1st Payment:** via PhonePe (Darshan)
 - **2nd Payment:** ₹50,000 (cash via Praveen Mudhol)
 
 ## Current Action

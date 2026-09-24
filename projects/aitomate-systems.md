@@ -25,7 +25,7 @@
 
 ### SeedWise (Darshan)
 - **Email:** agrosaathi.it@gmail.com
-- **Status:** Payment received ₹50k — delivering mobile app to Google Play Store
+- **Status:** Payment received ₹50k (PhonePe/Darshan + ₹50k cash/Praveen) — delivering mobile app to Google Play Store
 
 ### SSVInfra (Sanjay)
 - **Status:** Active client
