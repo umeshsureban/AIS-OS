@@ -14,9 +14,9 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 - **Email:** anandp.hiremath@gmail.com
 - **Additional Email:** anandp.hiremath@googlemail.com
 - **Phone:** +61 415 181 698
-- **Deal Stage:** Decision Maker Bought-In (80%)
-- **Status:** Demo video sent Sep 4; engaged for further discussion Sep 9.
-- **Next Actions:** Follow up on demo video; schedule call if interested; prepare proposal based on requirements — **PENDING**
+- **Deal Stage:** Dead — not agreed
+- **Status:** Demo video sent, no response.
+- **Next Actions:** None — offer not accepted.
 - **⚠️ OVERDUE/AGEING:** Demo follow-up is 13 days old; last recorded engagement is 8 days old.
 
 ### Kumaraswamy
