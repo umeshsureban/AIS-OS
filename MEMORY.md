@@ -79,8 +79,8 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 |--------|-------|
 | Active Clients | 4 |
 | Closed Clients | 3 |
-| Open Deals / New Leads | 2 |
-| Total Pipeline | 6 |
+| Open Deals / New Leads | 1 (Kumaraswamy) |
+| Total Pipeline | 5 |
 | Open Action Items (active clients + open deals) | 13 |
 | Additional Action on Closed Deal Requiring Decision | 0 |
 | Ageing Action Groups (>5 days since recorded update) | 6 |
