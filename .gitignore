@@ -1,0 +1,17 @@
+.env
+.env.local
+.DS_Store
+*.log
+__pycache__/
+node_modules/
+.claude/settings.local.json
+audits/
+brainstorms/
+
+# Obsidian per-machine UI state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/graph.json
+
+# Local editor configuration
+.vscode/

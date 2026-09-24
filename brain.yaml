@@ -1,0 +1,34 @@
+# Brain Vault — Authority Boundaries
+
+# This file declares the write policy each AI runtime must respect.
+# It is an instruction-level policy, not a filesystem ACL or technical sandbox.
+# Each tool can read the vault but should only write to its declared prefixes.
+
+write_prefixes:
+  # Hermes Agent — always-on runtime
+  hermes:
+    - "context/"
+    - "decisions/"
+    - "MEMORY.md"
+    - "wiki/"
+    - "projects/"
+
+  # Claude Code — on-demand coding agent
+  claude_code:
+    - "context/"
+    - "decisions/"
+    - "MEMORY.md"
+    - "projects/"
+    - "wiki/"
+
+  # Codex — on-demand terminal coding agent
+  codex:
+    - "context/"
+    - "decisions/"
+    - "MEMORY.md"
+    - "projects/"
+    - "wiki/"
+
+# Read-only tools (can read all, write none)
+read_only:
+  - obsidian  # Visual dashboard, no writes
