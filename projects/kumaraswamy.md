@@ -13,7 +13,8 @@ CRM stage not verified or updated.
 - Requirements discussion held on 2026-09-29 with Kumaraswamy and the spiritual group.
 - Landing page: their side will deliver (specific individual/team not yet identified).
 - WhatsApp automation: Umesh / AITOmate Systems will deliver.
-- Detailed automation scope, price, and delivery dates are not yet recorded.
+- Landing-page review confirmed by Umesh on 2026-09-29 for Saturday, 3 October 2026. This is specifically the landing-page review, not a confirmed WhatsApp delivery deadline.
+- Detailed automation scope, price, and WhatsApp delivery dates are not yet confirmed.
 
 ## Updates
 - **2026-09-29 (Umesh update):** Requirements discussion completed; landing page assigned to their side, WhatsApp automation to Umesh.

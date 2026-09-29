@@ -25,6 +25,7 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 - **Status (2026-09-29, Umesh update):** Requirements discussion held with Kumaraswamy and the spiritual group. Their side will deliver the landing page; Umesh / AITOmate Systems will deliver WhatsApp automation.
 - **Deal Stage:** Live CRM stage not verified; prior recorded stage was Appointment Scheduled (20%). No closed-won assumption.
 - **Next Actions:** Capture automation scope and landing-page handoff, confirm pricing and deadlines, then prepare design for approval.
+- **Confirmed review:** Landing page on Saturday, 3 October 2026 (Umesh confirmation, Sep 29); not a confirmed WhatsApp delivery deadline.
 
 ---
 
