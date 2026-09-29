@@ -2,7 +2,7 @@
 
 This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code, and Codex.
 
-**Last Updated:** 2026-09-17T20:42:26Z (manual authority reconciliation)
+**Last Updated:** 2026-09-29T12:23:32Z (nightly consolidation)
 
 ---
 
@@ -15,17 +15,16 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 - **Additional Email:** anandp.hiremath@googlemail.com
 - **Phone:** +61 415 181 698
 - **Deal Stage:** Dead — not agreed
-- **Status:** Demo video sent, no response.
-- **Next Actions:** None — offer not accepted.
-- **⚠️ OVERDUE/AGEING:** Demo follow-up is 13 days old; last recorded engagement is 8 days old.
+- **Status:** Demo video sent; offer not accepted.
+- **Next Actions:** None.
+- **Reconciliation:** `projects/anand-hiremath.md` still shows “Decision Maker Bought-In (80%)” and follow-up actions, but this shared memory is the later manual authority reconciliation and governs until a new live CRM update is available.
 
 ### Kumaraswamy
 - **Location:** West Bengal, Siligudi, India
 - **Phone:** +91 9363751502
 - **Deal Stage:** Appointment Scheduled (20%)
-- **Status:** Arranging a meeting with his spiritual Guru client (Sep 9).
-- **Next Actions:** Follow up via WhatsApp; schedule the initial requirements meeting; prepare automation proposal — **PENDING**
-- **⚠️ AGEING:** Last recorded update is 8 days old.
+- **Status:** Arranging an initial requirements meeting with his spiritual Guru client (last recorded update: Sep 9).
+- **Next Actions:** Follow up via WhatsApp; schedule the initial requirements meeting; prepare automation proposal — **PENDING / AGEING**
 
 ---
 
@@ -34,26 +33,26 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 ### Basavaraj (Jaguar Villa)
 - **Email:** jaguar.villas@gmail.com
 - **Status:** Engagement review pending; payment/status pending resolution.
-- **Sep 9 Update:** WhatsApp message sent requesting electricity bill.
-- **Actions:** Complete engagement-review follow-up; obtain electricity bill for KYC documentation — **PENDING / AGEING 8 DAYS**
+- **Last Recorded Update:** Sep 9 WhatsApp message requesting electricity bill.
+- **Actions:** Complete engagement-review follow-up; obtain electricity bill for KYC documentation — **PENDING / AGEING**
 
 ### Darshan (SeedWise)
 - **Email:** agrosaathi.it@gmail.com
-- **Status:** Active — second payment of ₹50,000 received in cash via Praveen Mudhol; payment completed.
-- **Sep 9 Update:** WhatsApp sent requesting app/mobile-testing feedback.
-- **Actions:** Confirm automation deliverables; collect testing feedback — **PENDING / AGEING 8 DAYS**
+- **Status:** Active — payments received, including the second ₹50,000 cash payment via Praveen Mudhol.
+- **Current Delivery:** Mobile app delivery to Google Play Store.
+- **Actions:** Deliver the mobile app to Google Play Store; confirm automation deliverables; collect app/mobile-testing feedback — **PENDING / AGEING**
 
 ### Sanjay (SSVInfra)
 - **Primary Email:** sanjay@ssvinfra.net
 - **Projects Email:** projects@ssvinfra.net
 - **Status:** Active — documentation pending.
-- **Sep 9 Update:** WhatsApp sent to the new Jalandhar issue email address; Bheemu reported email-accessibility issue.
-- **Actions:** Collect client documentation; resolve email-accessibility issue — **PENDING / AGEING 8 DAYS**
+- **Last Recorded Update:** Sep 9 WhatsApp to the new Jalandhar issue email address; Bheemu reported email-accessibility issue.
+- **Actions:** Collect client documentation; resolve email-accessibility issue — **PENDING / AGEING**
 
 ### Saurabh Divekar
 - **Status:** Active client.
-- **Sep 9 Update:** Waiting for mobile number from Diwakar representative.
-- **Action:** Follow up for mobile number — **PENDING / AGEING 8 DAYS**
+- **Last Recorded Update:** Sep 9; waiting for mobile number from Diwakar representative.
+- **Action:** Follow up for mobile number — **PENDING / AGEING**
 
 ---
 
@@ -79,12 +78,14 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 |--------|-------|
 | Active Clients | 4 |
 | Closed Clients | 3 |
-| Open Deals / New Leads | 1 (Kumaraswamy) |
-| Total Pipeline | 5 |
-| Open Action Items (active clients + open deals) | 13 |
-| Additional Action on Closed Deal Requiring Decision | 0 |
-| Ageing Action Groups (>5 days since recorded update) | 6 |
-| Explicitly Overdue Item | 1 (Anand demo follow-up) |
+| Open Deals / New Leads | 1 (Kumaraswamy — Appointment Scheduled, 20%) |
+| Dead Deals / New Leads | 1 (Anand Hiremath — Dead / not agreed) |
+| Total Tracked Client & Deal Records | 9 |
+| Open Action Items (active clients + open deals) | 11 |
+| Ageing Action Groups (>5 days since recorded update) | 5 |
+| Explicitly Overdue Items (dated deadline missed) | 0 |
+
+**Ageing note:** Every open action group was last updated on Sep 9, approximately 20 days before this consolidation. No action has a recorded due date, so they are ageing/stalled rather than formally overdue.
 
 ---
 
