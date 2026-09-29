@@ -13,7 +13,8 @@ CRM stage not verified or updated.
 - Requirements discussion held on 2026-09-29 with Kumaraswamy and the spiritual group.
 - Landing page: their side will deliver (specific individual/team not yet identified).
 - WhatsApp automation: Umesh / AITOmate Systems will deliver.
-- Landing-page review confirmed by Umesh on 2026-09-29 for Saturday, 3 October 2026. This is specifically the landing-page review, not a confirmed WhatsApp delivery deadline.
+- Latest clarification from Umesh: Kumaraswamy confirmed their team will provide Guruji’s profile/biodata; the second component is AI-enabled WhatsApp automation, delivered by Umesh / AITOmate Systems.
+- Review confirmed for Saturday, 3 October 2026. The earlier assistant interpretation that this was exclusively a landing-page review is superseded; review is not a final delivery deadline.
 - Detailed automation scope, price, and WhatsApp delivery dates are not yet confirmed.
 
 ## Updates
