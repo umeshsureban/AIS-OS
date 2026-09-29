@@ -22,9 +22,9 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 ### Kumaraswamy
 - **Location:** West Bengal, Siligudi, India
 - **Phone:** +91 9363751502
-- **Deal Stage:** Appointment Scheduled (20%)
-- **Status:** Arranging an initial requirements meeting with his spiritual Guru client (last recorded update: Sep 9).
-- **Next Actions:** Follow up via WhatsApp; schedule the initial requirements meeting; prepare automation proposal — **PENDING / AGEING**
+- **Status (2026-09-29, Umesh update):** Requirements discussion held with Kumaraswamy and the spiritual group. Their side will deliver the landing page; Umesh / AITOmate Systems will deliver WhatsApp automation.
+- **Deal Stage:** Live CRM stage not verified; prior recorded stage was Appointment Scheduled (20%). No closed-won assumption.
+- **Next Actions:** Capture automation scope and landing-page handoff, confirm pricing and deadlines, then prepare design for approval.
 
 ---
 
@@ -78,14 +78,14 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 |--------|-------|
 | Active Clients | 4 |
 | Closed Clients | 3 |
-| Open Deals / New Leads | 1 (Kumaraswamy — Appointment Scheduled, 20%) |
+| Open Deals / New Leads | 1 (Kumaraswamy — requirements discussed; CRM stage unverified) |
 | Dead Deals / New Leads | 1 (Anand Hiremath — Dead / not agreed) |
 | Total Tracked Client & Deal Records | 9 |
 | Open Action Items (active clients + open deals) | 11 |
-| Ageing Action Groups (>5 days since recorded update) | 5 |
+| Ageing Action Groups (>5 days since recorded update) | 4 |
 | Explicitly Overdue Items (dated deadline missed) | 0 |
 
-**Ageing note:** Every open action group was last updated on Sep 9, approximately 20 days before this consolidation. No action has a recorded due date, so they are ageing/stalled rather than formally overdue.
+**Ageing note:** Active-client action groups retain Sep 9 updates; Kumaraswamy was updated on Sep 29 after the requirements discussion. No action has a recorded due date, so they are ageing/stalled rather than formally overdue.
 
 ---
 
