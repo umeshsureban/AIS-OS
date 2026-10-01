@@ -2,7 +2,7 @@
 
 This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code, and Codex.
 
-**Last Updated:** 2026-09-30T19:00:44Z (nightly consolidation)
+**Last Updated:** 2026-10-01T19:01:02Z (nightly consolidation)
 
 ---
 
@@ -81,13 +81,15 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 | Active Clients | 4 |
 | Closed Clients | 3 |
 | Open Deals / New Leads | 1 (Kumaraswamy — requirements discussed; CRM stage unverified) |
-| Dead Deals / New Leads | 1 (Anand Hiremath — Dead / not agreed) |
+| Dead Deals / New Leads | 1 (Anand Hiremath — Dead / not agreed; shared-memory reconciliation governs) |
 | Total Tracked Client & Deal Records | 9 |
-| Open Action Items (active clients + open deals) | 11 |
-| Ageing Action Groups (>5 days since recorded update) | 4 |
+| Pending Action Items (active clients + open deals) | 9 |
+| Ageing Action Groups (last recorded update before 2026-09-30 or no current timestamp) | 4 |
 | Explicitly Overdue Items (dated deadline missed) | 0 |
 
-**Ageing note:** Active-client action groups retain Sep 9 updates; Kumaraswamy was updated on Sep 29 after the requirements discussion. No action has a recorded due date, so they are ageing/stalled rather than formally overdue.
+**Reconciliation note:** `projects/anand-hiremath.md` retains an older “Decision Maker Bought-In (80%)” stage, while `projects/aitomate-systems.md` retains older stages for Anand and Kumaraswamy. The shared-memory reconciliations above govern until a new live CRM update is available.
+
+**Ageing note:** Basavaraj, SeedWise, SSVInfra, and Saurabh have pending delivery/follow-up groups without a current update. Kumaraswamy was updated on 2026-09-29 and has a review on 2026-10-03; it is not a final delivery deadline. No action has a recorded due date, so these are ageing/stalled rather than formally overdue.
 
 ---
 
