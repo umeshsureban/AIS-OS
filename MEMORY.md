@@ -2,7 +2,7 @@
 
 This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code, and Codex.
 
-**Last Updated:** 2026-10-02T19:00:57Z (nightly consolidation)
+**Last Updated:** 2026-10-03T19:00:00Z (nightly consolidation)
 
 ---
 
@@ -14,7 +14,7 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 - **Email:** anandp.hiremath@gmail.com
 - **Additional Email:** anandp.hiremath@googlemail.com
 - **Phone:** +61 415 181 698
-- **Deal Stage:** Dead — not agreed
+- **Deal Stage:** Dead — not agreed.
 - **Status:** Demo video sent; offer not accepted.
 - **Next Actions:** None.
 - **Reconciliation:** `projects/anand-hiremath.md` still shows “Decision Maker Bought-In (80%)” and follow-up actions, but this shared memory is the later manual authority reconciliation and governs until a new live CRM update is available.
@@ -22,11 +22,11 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 ### Kumaraswamy
 - **Location:** West Bengal, Siligudi, India
 - **Phone:** +91 9363751502
-- **Status (2026-09-29, Umesh update):** Requirements discussion held with Kumaraswamy and the spiritual group. Their side will deliver the landing page; Umesh / AITOmate Systems will deliver WhatsApp automation.
+- **Status (2026-09-29, Umesh update):** Requirements discussion held with Kumaraswamy and the spiritual group. Their side will deliver the landing page; Umesh / AITOmate Systems will deliver AI-enabled WhatsApp automation.
 - **Deal Stage:** Live CRM stage not verified; prior recorded stage was Appointment Scheduled (20%). No closed-won assumption.
-- **Next Actions:** Capture automation scope and landing-page handoff, confirm pricing and deadlines, then prepare design for approval.
-- **Latest clarification:** Kumaraswamy confirmed their team will provide Guruji’s profile/biodata. The second component is AI-enabled WhatsApp automation by Umesh / AITOmate Systems.
-- **Confirmed review:** Saturday, 3 October 2026. Supersedes the assistant’s landing-page-only interpretation; not a confirmed final delivery deadline.
+- **Latest clarification:** Kumaraswamy's team will provide Guruji’s profile/biodata.
+- **Review:** Saturday, 3 October 2026. This was not a final delivery deadline; no outcome is recorded in the vault after the scheduled review date.
+- **Next Actions:** Capture the review outcome plus WhatsApp automation scope and landing-page handoff; confirm commercial terms and delivery dates; prepare a design document for approval before implementation.
 
 ---
 
@@ -35,26 +35,25 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 ### Basavaraj (Jaguar Villa)
 - **Email:** jaguar.villas@gmail.com
 - **Status:** Engagement review pending; payment/status pending resolution.
-- **Last Recorded Update:** Sep 9 WhatsApp message requesting electricity bill.
-- **Actions:** Complete engagement-review follow-up; obtain electricity bill for KYC documentation — **PENDING / AGEING**
+- **Last Recorded Update:** 2026-09-09 WhatsApp message requesting electricity bill.
+- **Actions:** Complete engagement-review follow-up; obtain electricity bill for KYC documentation — **PENDING / AGEING**.
 
 ### Darshan (SeedWise)
 - **Email:** agrosaathi.it@gmail.com
 - **Status:** Active — payments received, including the second ₹50,000 cash payment via Praveen Mudhol.
-- **Current Delivery:** Mobile app delivery to Google Play Store.
-- **Actions:** Deliver the mobile app to Google Play Store; confirm automation deliverables; collect app/mobile-testing feedback — **PENDING / AGEING**
+- **Current Delivery:** Mobile app delivery to Google Play Store — **PENDING / AGEING**.
 
 ### Sanjay (SSVInfra)
 - **Primary Email:** sanjay@ssvinfra.net
 - **Projects Email:** projects@ssvinfra.net
 - **Status:** Active — documentation pending.
-- **Last Recorded Update:** Sep 9 WhatsApp to the new Jalandhar issue email address; Bheemu reported email-accessibility issue.
-- **Actions:** Collect client documentation; resolve email-accessibility issue — **PENDING / AGEING**
+- **Last Recorded Update:** 2026-09-09 WhatsApp to the new Jalandhar issue email address; Bheemu reported an email-accessibility issue.
+- **Actions:** Collect client documentation; resolve email-accessibility issue — **PENDING / AGEING**.
 
 ### Saurabh Divekar
 - **Status:** Active client.
-- **Last Recorded Update:** Sep 9; waiting for mobile number from Diwakar representative.
-- **Action:** Follow up for mobile number — **PENDING / AGEING**
+- **Last Recorded Update:** 2026-09-09; waiting for mobile number from Diwakar representative.
+- **Action:** Follow up for mobile number — **PENDING / AGEING**.
 
 ---
 
@@ -62,7 +61,7 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 
 ### Sravan Kumar (VNA)
 - **Location:** Hyderabad
-- **Status:** Closed
+- **Status:** Closed.
 - **Services:** GBP, LinkedIn, WhatsApp lead gen (50 students), review automation.
 
 ### Alan (Mark Industries)
@@ -70,7 +69,7 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 - **Follow-up:** Retired when the deal was closed on 2026-09-06.
 
 ### Parijat (SoloWarrior)
-- **Status:** Closed
+- **Status:** Closed.
 
 ---
 
@@ -83,13 +82,15 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 | Open Deals / New Leads | 1 (Kumaraswamy — requirements discussed; CRM stage unverified) |
 | Dead Deals / New Leads | 1 (Anand Hiremath — Dead / not agreed; shared-memory reconciliation governs) |
 | Total Tracked Client & Deal Records | 9 |
+| Total Deals / Prospects | 2 |
 | Pending Action Items (active clients + open deals) | 9 |
 | Ageing Action Groups (last recorded update before 2026-09-30 or no current timestamp) | 4 |
-| Explicitly Overdue Items (dated deadline missed) | 0 |
+| Explicitly Overdue Delivery Deadlines | 0 |
+| Scheduled-Date Outcome Missing | 1 (Kumaraswamy review — 2026-10-03) |
 
-**Reconciliation note:** `projects/anand-hiremath.md` retains an older “Decision Maker Bought-In (80%)” stage, while `projects/aitomate-systems.md` retains older stages for Anand and Kumaraswamy. The shared-memory reconciliations above govern until a new live CRM update is available.
+**Deal-stage reconciliation:** `projects/anand-hiremath.md` retains an older “Decision Maker Bought-In (80%)” stage, and `projects/aitomate-systems.md` retains older stages for Anand and Kumaraswamy. The shared-memory reconciliations above govern until a new live CRM update is available.
 
-**Ageing note:** Basavaraj, SeedWise, SSVInfra, and Saurabh have pending delivery/follow-up groups without a current update. Kumaraswamy was updated on 2026-09-29 and has a review on 2026-10-03; it is not a final delivery deadline. No action has a recorded due date, so these are ageing/stalled rather than formally overdue.
+**Ageing and due-date note:** Basavaraj, SeedWise, SSVInfra, and Saurabh have pending delivery/follow-up groups without a current update. Kumaraswamy’s review was scheduled for 2026-10-03, but the vault has no outcome recorded; it requires immediate capture, not a retroactive assumption that delivery was due. No delivery action has a recorded due date, so the four ageing groups are stalled rather than formally overdue.
 
 ---
 
