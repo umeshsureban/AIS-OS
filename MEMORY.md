@@ -2,7 +2,7 @@
 
 This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code, and Codex.
 
-**Last Updated:** 2026-10-03T19:00:00Z (nightly consolidation)
+**Last Updated:** 2026-10-04T19:00:54Z (nightly consolidation)
 
 ---
 
@@ -25,7 +25,7 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 - **Status (2026-09-29, Umesh update):** Requirements discussion held with Kumaraswamy and the spiritual group. Their side will deliver the landing page; Umesh / AITOmate Systems will deliver AI-enabled WhatsApp automation.
 - **Deal Stage:** Live CRM stage not verified; prior recorded stage was Appointment Scheduled (20%). No closed-won assumption.
 - **Latest clarification:** Kumaraswamy's team will provide Guruji’s profile/biodata.
-- **Review:** Saturday, 3 October 2026. This was not a final delivery deadline; no outcome is recorded in the vault after the scheduled review date.
+- **Review:** Saturday, 3 October 2026. This was not a final delivery deadline; as of 2026-10-04, no review outcome is recorded in the vault.
 - **Next Actions:** Capture the review outcome plus WhatsApp automation scope and landing-page handoff; confirm commercial terms and delivery dates; prepare a design document for approval before implementation.
 
 ---
@@ -90,7 +90,7 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 
 **Deal-stage reconciliation:** `projects/anand-hiremath.md` retains an older “Decision Maker Bought-In (80%)” stage, and `projects/aitomate-systems.md` retains older stages for Anand and Kumaraswamy. The shared-memory reconciliations above govern until a new live CRM update is available.
 
-**Ageing and due-date note:** Basavaraj, SeedWise, SSVInfra, and Saurabh have pending delivery/follow-up groups without a current update. Kumaraswamy’s review was scheduled for 2026-10-03, but the vault has no outcome recorded; it requires immediate capture, not a retroactive assumption that delivery was due. No delivery action has a recorded due date, so the four ageing groups are stalled rather than formally overdue.
+**Ageing and due-date note:** Basavaraj, SeedWise, SSVInfra, and Saurabh have pending delivery/follow-up groups without a current update. Kumaraswamy’s review was scheduled for 2026-10-03, but the vault has no outcome recorded as of 2026-10-04; its outcome capture is overdue, but it is not evidence of an overdue delivery. No delivery action has a recorded due date, so the four ageing groups are stalled rather than formally overdue.
 
 ---
 
