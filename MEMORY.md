@@ -2,7 +2,7 @@
 
 This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code, and Codex.
 
-**Last Updated:** 2026-10-11T19:00:56Z (nightly consolidation)
+**Last Updated:** 2026-10-12T19:02:11Z (nightly consolidation)
 
 ---
 
@@ -84,13 +84,13 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 | Total Tracked Client & Deal Records | 9 |
 | Total Deals / Prospects | 2 |
 | Pending Action Items (active clients + open deals) | 9 |
-| Ageing Action Groups (last recorded update before 2026-10-06 or no current timestamp) | 4 |
+| Ageing Action Groups (last recorded update before 2026-10-07 or no current timestamp) | 4 |
 | Explicitly Overdue Delivery Deadlines | 0 |
 | Scheduled-Date Outcome Missing | 1 (Kumaraswamy review — 2026-10-03) |
 
 **Deal-stage reconciliation:** `projects/anand-hiremath.md` retains an older “Decision Maker Bought-In (80%)” stage, and `projects/aitomate-systems.md` retains older stages for Anand and Kumaraswamy. The shared-memory reconciliations above govern until a new live CRM update is available.
 
-**Ageing and due-date note:** Basavaraj, SeedWise, SSVInfra, and Saurabh have pending delivery/follow-up groups without a current update. Kumaraswamy’s review was scheduled for 2026-10-03, but the vault has no outcome recorded as of 2026-10-10; its outcome capture is overdue, but it is not evidence of an overdue delivery. No delivery action has a recorded due date, so the four ageing groups are stalled rather than formally overdue.
+**Ageing and due-date note:** Basavaraj, SeedWise, SSVInfra, and Saurabh have pending delivery/follow-up groups without a current update. Kumaraswamy’s review was scheduled for 2026-10-03, but the vault has no outcome recorded as of 2026-10-12; its outcome capture is overdue, but it is not evidence of an overdue delivery. No delivery action has a recorded due date, so the four ageing groups are stalled rather than formally overdue.
 
 ---
 
