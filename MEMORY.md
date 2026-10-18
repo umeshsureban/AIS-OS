@@ -2,7 +2,7 @@
 
 This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code, and Codex.
 
-**Last Updated:** 2026-10-17T19:00:40Z (nightly consolidation; reconciled against all `projects/` files — no material status changes found)
+**Last Updated:** 2026-10-18T19:00:51Z (nightly consolidation; reconciled against all `projects/` files — no material status changes found)
 
 ---
 
@@ -82,13 +82,13 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 | Total Tracked Client & Deal Records | 9 |
 | Total Deals / Prospects | 2 |
 | Pending Action Items (active clients + open deals) | 9 |
-| Ageing Action Groups (last recorded update before 2026-10-08 or no current timestamp) | 4 |
+| Ageing Action Groups (last recorded update before 2026-10-10 or no current timestamp) | 4 |
 | Explicitly Overdue Delivery Deadlines | 0 |
-| Overdue Scheduled-Outcome Capture | 1 (Kumaraswamy review — 2026-10-03) |
+| Overdue Scheduled-Outcome Capture | 1 (Kumaraswamy review — 2026-10-03; 15 days overdue as of 2026-10-18) |
 
 **Deal-stage reconciliation:** `projects/anand-hiremath.md` retains an older “Decision Maker Bought-In (80%)” stage, while `projects/aitomate-systems.md` retains older stages for Anand and Kumaraswamy. The shared-memory reconciliations above govern until a new live CRM update is available.
 
-**Ageing and overdue note:** Basavaraj, SeedWise, SSVInfra, and Saurabh have pending delivery/follow-up groups without a current update. Kumaraswamy’s review was scheduled for 2026-10-03 and has no captured outcome as of 2026-10-16; outcome capture is overdue, but this is not evidence of an overdue delivery. No delivery action has a recorded due date, so the four ageing groups are stalled rather than formally overdue.
+**Ageing and overdue note:** Basavaraj, SeedWise, SSVInfra, and Saurabh have pending delivery/follow-up groups without a current update. Kumaraswamy’s review was scheduled for 2026-10-03 and has no captured outcome as of 2026-10-18; outcome capture is 15 days overdue, but this is not evidence of an overdue delivery. No delivery action has a recorded due date, so the four ageing groups are stalled rather than formally overdue.
 
 ---
 
