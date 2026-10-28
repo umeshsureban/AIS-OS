@@ -9,20 +9,22 @@
 - **Phone:** +61 415 181 698
 - **Website:** http://www.google.com/profiles/103012394480862531197
 
-## Deal Stage: Decision Maker Bought-In (80%)
+## Deal Stage: Dead, not agreed
+
+Authority: `MEMORY.md`. The stage was last recorded as Decision Maker Bought-In (80%) and was changed to Dead on 2026-09-24 (write-back from the VPS vault). Aligned here on 2026-10-29.
 
 ## Status
 - Demo video sent
-- Waiting for reply on automation interest
-- Follow up via WhatsApp/email
+- Offer not accepted
+- No active follow-up
 
 ## Updates
 - **Sep 9:** Anand engaged for further discussion on project
+- **Sep 24:** Marked Dead, not agreed
+- **2026-10-29:** Page reconciled with `MEMORY.md`
 
 ## Next Actions
-1. Follow up on demo video
-2. Schedule call if interested
-3. Prepare proposal based on requirements
+None. Re-open only if Anand reaches out or a new CRM update says otherwise.
 
 ## Notes
 - Education-based SaaS application

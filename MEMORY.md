@@ -24,7 +24,7 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 - **Phone:** +61 415 181 698
 - **Deal Stage:** Dead — not agreed.
 - **Status:** Demo video sent; offer not accepted. No active follow-up.
-- **Reconciliation:** `projects/anand-hiremath.md` still shows the older “Decision Maker Bought-In (80%)” stage and follow-up actions. This shared-memory reconciliation is the later authority until a new live CRM update is available.
+- **Reconciliation:** `projects/anand-hiremath.md` and `context/clients.md` were aligned to this stage on 2026-10-29. This file stays the authority until a new live CRM update is available.
 
 ---
 
@@ -86,7 +86,7 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 | Explicitly Overdue Delivery Deadlines | 0 |
 | Overdue Scheduled-Outcome Capture | 1 (Kumaraswamy review — 2026-10-03; 25 days overdue as of 2026-10-28) |
 
-**Deal-stage reconciliation:** `projects/anand-hiremath.md` retains an older “Decision Maker Bought-In (80%)” stage, while `projects/aitomate-systems.md` retains older stages for Anand and Kumaraswamy. The shared-memory reconciliations above govern until a new live CRM update is available.
+**Deal-stage reconciliation:** `projects/anand-hiremath.md`, `projects/aitomate-systems.md`, and `context/clients.md` were aligned to the stages above on 2026-10-29. On any future conflict, this file governs until a new live CRM update is available.
 
 **Ageing and overdue note:** Basavaraj, SeedWise, SSVInfra, and Saurabh have pending delivery/follow-up groups without a current update. Kumaraswamy’s review was scheduled for 2026-10-03 and has no captured outcome as of 2026-10-28; outcome capture is 25 days overdue, but this is not evidence of an overdue delivery. No delivery action has a recorded due date, so the four ageing groups are stalled rather than formally overdue.
 

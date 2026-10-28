@@ -38,7 +38,7 @@ See `EXPANSIONS.md` for what to add as you grow.
 
 ## Knowledge base
 
-Umesh ji runs AITOmate Systems in Bengaluru. AI automation company. Clients: VNA (Sravan), Alan (Mark Industries), Jaguar Villa (Basavaraj), SeedWise (Darshan), SSVInfra (Sanjay), Saurabh Divekar, SoloWarrior (Parijat). New leads: Anand Hiremath (AU, education SaaS), Kumaraswamy (IN, spiritual guru automation).
+Umesh ji runs AITOmate Systems in Bengaluru. AI automation company. For current clients, leads, and deal stages, read `MEMORY.md` (authoritative), then `projects/` and `context/clients.md`. Do not copy client status here.
 
 Dislikes n8n — prefers webhooks/cron/Composio. WhatsApp-first clients in India. Prefers direct action, corrects course immediately.
 

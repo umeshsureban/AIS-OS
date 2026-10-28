@@ -209,3 +209,21 @@ Keep it terse. Future-you will thank present-you for capturing the *why*, not ju
 **Owner:** Umesh
 
 **Framework:** Adapted from The Three Ms of AI™ © 2026 Nate Herk.
+
+## 2026-10-29 — Align stale client stages with MEMORY.md
+
+**Decision:** Treat `MEMORY.md` as the single source for deal and client stage and align the downstream copies to it: `context/clients.md` (Anand now Dead, Kumaraswamy "CRM stage unverified", SeedWise current delivery), `projects/anand-hiremath.md` (Dead, no next actions, history kept), `projects/aitomate-systems.md` (Kumaraswamy). The hard-coded client and lead list in the Knowledge base section of `AGENTS.md` and `CLAUDE.md` was replaced by a pointer to `MEMORY.md`, `projects/` and `context/clients.md`. The two "older stage" reconciliation notes in `MEMORY.md` were updated to say the pages were aligned. `projects/kumaraswamy.md` already matched and was not changed.
+
+**Why:** Audit finding AIOS-20260917-01. Three of five changing-fact probes agreed; Anand (Dead vs 80%) and Kumaraswamy (unverified vs Appointment Scheduled 20%) disagreed across files, and the manuals broke their own no-volatile-status rule. Eliminate first: removing the copy from the manuals beats keeping it in sync.
+
+**Process:** Trigger: audit finding. Data: `MEMORY.md` (2026-10-28 consolidation) and the git history of the Dead write-back (2026-09-24). Transform: manual edits to six files, no new facts invented. Decision: `MEMORY.md` wins on conflict. Destination: vault files, then origin.
+
+**Autonomy:** L1, human-requested repair; no client-facing action. Contact details (emails, phones) were left as they were.
+
+**KPI:** Bucket: lower cost (fewer wrong-answer corrections). Metric: changing-fact probes that agree across files, from 3 of 5 to 5 of 5.
+
+**Open:** The live CRM stage for both deals is still unverified; `MEMORY.md` says so. Kumaraswamy's 2026-10-03 review outcome is not recorded.
+
+**Owner:** Umesh
+
+**Framework:** Adapted from The Three Ms of AI™ © 2026 Nate Herk.

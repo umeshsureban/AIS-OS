@@ -51,5 +51,5 @@
 ### Kumaraswamy
 - **Location:** West Bengal, Siligudi, India
 - **Phone:** +91 9363751502
-- **Deal Stage:** Appointment Scheduled (20%)
-- **Status:** Talking with spiritual Guru, scheduling initial requirements meeting
+- **Deal Stage:** Live CRM stage not verified (last recorded: Appointment Scheduled, 20%)
+- **Status:** Requirements discussed 2026-09-29; see `MEMORY.md` and `projects/kumaraswamy.md`

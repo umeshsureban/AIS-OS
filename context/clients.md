@@ -1,6 +1,6 @@
 # Clients & Prospects
 
-> Stable client directory. For the latest cross-tool status and ageing actions, use [`MEMORY.md`](../MEMORY.md). Last reconciled: 2026-09-18.
+> Stable client directory. For the latest cross-tool status and ageing actions, use [`MEMORY.md`](../MEMORY.md). Last reconciled against `MEMORY.md` (2026-10-28 consolidation): 2026-10-29. On any conflict, `MEMORY.md` governs.
 
 ## Active Clients
 
@@ -12,7 +12,7 @@
 ### SeedWise (Darshan)
 - **Email:** agrosaathi.it@gmail.com
 - **Status:** Active; second payment of ₹50,000 received
-- **Action:** Confirm deliverables and collect app/mobile-testing feedback
+- **Action:** Current delivery is the mobile app to the Google Play Store (see `MEMORY.md`)
 
 ### SSVInfra (Sanjay)
 - **Status:** Active; documentation and email-accessibility issue pending
@@ -40,29 +40,30 @@
 
 ---
 
-## New Leads
+## Leads and Prospects
+
+### Kumaraswamy
+- **Location:** West Bengal, Siligudi, India
+- **Phone:** +91 9363751502
+- **Deal Stage:** Live CRM stage not verified (last recorded: Appointment Scheduled, 20%). Requirements were discussed on 2026-09-29.
+- **Status:** Their side delivers the landing page; AITOmate delivers AI-enabled WhatsApp automation
+- **Next action:** See `MEMORY.md` and `projects/kumaraswamy.md`
 
 ### Anand Hiremath
 - **Location:** Australia
 - **Company:** Education SaaS
 - **Email:** anandp.hiremath@gmail.com
 - **Phone:** +61 415 181 698
-- **Deal Stage:** Decision Maker Bought-In (80%)
-- **Status:** Demo sent; engaged for further discussion on Sep 9
-- **Next action:** Follow up and schedule a requirements call if interested
-
-### Kumaraswamy
-- **Location:** West Bengal, Siligudi, India
-- **Phone:** +91 9363751502
-- **Deal Stage:** Appointment Scheduled (20%)
-- **Status:** Scheduling meeting with spiritual Guru
-- **Next action:** Follow up via WhatsApp and schedule the initial requirements meeting
+- **Deal Stage:** Dead, not agreed
+- **Status:** Demo video sent; offer not accepted. No active follow-up.
 
 ---
 
 ## Prospect Tracking
 
-| Name | Source | Stage | Probability |
-|------|--------|-------|-------------|
-| Anand Hiremath | Australia | Decision Maker Bought-In | 80% |
-| Kumaraswamy | India (Siliguri) | Appointment Scheduled | 20% |
+Current stages live in `MEMORY.md`. Snapshot as of 2026-10-29:
+
+| Name | Source | Stage |
+|------|--------|-------|
+| Kumaraswamy | India (Siliguri) | Open; requirements discussed, CRM stage unverified |
+| Anand Hiremath | Australia | Dead, not agreed |
