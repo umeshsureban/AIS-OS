@@ -93,3 +93,119 @@ Keep it terse. Future-you will thank present-you for capturing the *why*, not ju
 **Owner:** Umesh
 
 **Framework:** Adapted from The Three Ms of AI™ © 2026 Nate Herk.
+
+## 2026-10-28 — Verify Hermes skill inventory on the VPS
+
+**Decision:** Close audit gap AIOS-20260918-03 as a read-only verification, using a prompt-only runbook at `references/hermes-vps-skill-check.md`. Result: 7/7 skills on disk in the Hermes container, 0/7 in `hermes skills list --source local --enabled-only`, and `link` loads in a fresh oneshot session when given its explicit path. Discovery by name is unproven, so the gap is narrowed, not closed.
+
+**Why:** `.hermes.md` implied all seven skills work in Hermes, but only meeting-intelligence had production evidence. Eliminate was not possible (the claim needs evidence). Automate: about 90% is a deterministic list-and-diff with no AI step. Manual: SSH approval and judging mismatches.
+
+**Method:** Trigger: manual, after any skill change. Data: VPS `.agents/skills`, Hermes inventory, local skill folders. Transform: diff three name lists. Decision: 7/7 pass, otherwise finding. Destination: this log and the runbook.
+
+**Autonomy:** L1. Read-only SSH and one oneshot read; no trust, install, or config change.
+
+**KPI:** Bucket: cut costs (fewer wrong-answer corrections). Skills with direct VPS evidence went from 1/7 to 7/7 on disk and 7/7 loadable by path. Inventory registration is still 0/7.
+
+**Alternatives considered:** Running `hermes skills trust` to force registration. Deferred; it changes VPS config and needs explicit approval.
+
+**Owner:** Umesh
+
+**Framework:** Adapted from The Three Ms of AI™ © 2026 Nate Herk.
+
+## 2026-10-29 — Re-pin meeting-intelligence-pipeline off unsupported Sol
+
+**Decision:** Move Hermes job `72e7debe2186` (`meeting-intelligence-pipeline`) from `gpt-5.6-sol` to `gpt-5.6-terra` on `openai-codex`, reasoning effort unchanged (medium), explicitly pinned. This supersedes the 2026-09-17 assignment of Sol to this job. Previous settings for rollback: model `gpt-5.6-sol`, provider `openai-codex`, medium.
+
+**Why:** Audit finding AIOS-20261028-01. The job failed 3 times in a row (last 2026-10-28T18:00Z) with HTTP 400: Sol is not supported with Codex on a ChatGPT account. Every other job on the same provider runs on Luna or Terra and completes on time, so Terra is the nearest supported tier. Eliminate was not possible: the pipeline is the only supervised path for meeting packets.
+
+**Method:** Trigger: existing Hermes cron schedule, unchanged. Data: Fathom metadata and transcript, client mapping. Transform: packet, action items, recipient preview. Decision: exact `APPROVE`/`SKIP MI-<recording_id>` token. Destination: Google Drive packet, Telegram review card. Only the model pin changes.
+
+**Autonomy:** L1, unchanged. No distribution without an exact approval token. The repair edits one VPS job's model setting and nothing else.
+
+**KPI:** Bucket: lower cost (fewer missed meetings and manual follow-ups). Metric: consecutive failures of this job, from 3 to 0 on the next due run, then packet ready within 15 minutes of a completed meeting (original KPI).
+
+**Alternatives considered:** Switch the account or provider to make Sol work (larger change, unverified). Run the job forcibly to test (side effects in Drive and Telegram, and the request was to confirm a due run).
+
+**Owner:** Umesh
+
+**Framework:** Adapted from The Three Ms of AI™ © 2026 Nate Herk.
+
+## 2026-10-29 — Meeting pipeline moves to Claude Sonnet 5.5 (supersedes Terra pin)
+
+**Decision:** Re-pin Hermes job `72e7debe2186` (`meeting-intelligence-pipeline`) from `gpt-5.6-terra` / `openai-codex` (set earlier today) to `claude-sonnet-5-5` on the `anthropic` provider, reasoning effort unchanged (medium), explicitly pinned. Rollback options: `gpt-5.6-terra` on `openai-codex`, or the original `gpt-5.6-sol` (rejected by the ChatGPT-account Codex route).
+
+**Why:** Umesh asked for a supported Claude model. Audit finding AIOS-20261028-01 (3 consecutive failures on Sol). The `anthropic` provider has a pooled API key, and a one-turn test call to `claude-sonnet-5-5` returned correctly from the Hermes container. OpenRouter was not used: its key is exhausted (402). The default `claude-subscription-directsdk-experimental` route was not used: Claude Code is not installed on the VPS.
+
+**Method:** Unchanged from the 2026-10-29 entry above: same schedule, data sources, approval-token gate, and Drive and Telegram destinations. Only the model and provider pin change.
+
+**Autonomy:** L1, unchanged. No client distribution without an exact approval token.
+
+**KPI:** Bucket: lower cost (fewer missed meetings). Metric: consecutive failures from 3 to 0 on the next due run (2026-10-29 18:00 UTC). Watch API spend: this job now bills per token on the Anthropic key instead of the ChatGPT-account route.
+
+**Policy note:** This departs from the 2026-09-17 tier policy (Sol for this job). The tier policy line in `MEMORY.md` still names Sol and needs a manual update.
+
+**Alternatives considered:** Terra on `openai-codex` (works, already applied before this request). OpenRouter Claude (exhausted credit).
+
+**Owner:** Umesh
+
+**Framework:** Adapted from The Three Ms of AI™ © 2026 Nate Herk.
+
+## 2026-10-29 — Meeting pipeline moves to Claude subscription (supersedes API pin)
+
+**Decision:** Re-pin Hermes job `72e7debe2186` (`meeting-intelligence-pipeline`) from `claude-sonnet-5-5` on the `anthropic` API provider to model `sonnet` on `claude-subscription-directsdk-experimental`, reasoning effort unchanged (medium), pinned. Rollback options: `gpt-5.6-terra` on `openai-codex` (no API), or the API pin.
+
+**Why:** Umesh does not want per-token API billing for this job. Claude Code is already installed and logged in with the claude.ai account inside the Hermes container (`CLAUDE_SUBSCRIPTION_DIRECTSDK_COMMAND` in `/opt/data/.env` points to a working 2.1.310 binary; a second 2.1.312 copy was also installed at `/opt/data/tools/claude-code` and is redundant). A one-turn test through the subscription provider returned correctly. This also removes the 3-failure Sol error (AIOS-20261028-01) pending the next due run.
+
+**Method / Autonomy:** Unchanged. Same schedule, sources, approval-token gate (L1), Drive and Telegram destinations.
+
+**KPI:** Consecutive failures of this job from 3 to 0 on the next due run (2026-10-29 18:00 UTC), with zero API spend for this job.
+
+**Risk:** The provider is marked experimental. If the run fails, roll back to Terra on `openai-codex`.
+
+**Owner:** Umesh
+
+**Framework:** Adapted from The Three Ms of AI™ © 2026 Nate Herk.
+
+## 2026-10-29 — Meeting pipeline job routed through the meeting-intelligence skill
+
+**Decision:** Replace the saved prompt of Hermes job `72e7debe2186` with a short poll-mode prompt that reads `.agents/skills/meeting-intelligence/SKILL.md` by path and follows it, and set the job workdir to `/opt/data/ais-os-clone`. The skill is referenced by path, not attached by name, because Hermes does not list repo skills (AIOS-20260918-03). The previous prompt was a legacy flow with a loose "Reply APPROVE" token and its own state handling; its full saved config is backed up locally in the session scratchpad and the old text is in the prior job config.
+
+**Why:** The legacy prompt contradicted the 2026-09-18 decision (exact `APPROVE MI-<recording_id>` token, state validated by `state_tool.py`). The job also lacked the skill and workdir the skill's own acceptance checks require.
+
+**State migration:** The new flow's validator rejected `/opt/data/meeting-watcher-state.json` because 7 legacy `pending_approval` records (Sep 15 to Oct 17, all client folder Unsorted, no stored recipients, nothing ever sent) had no valid approval tokens. With Umesh's approval, all 7 were marked `skipped` with a reason and timestamp; nothing else changed. Backup: `/opt/data/meeting-watcher-state.json.bak-20261028-legacy-migration`. State now validates.
+
+**Test results (2026-10-28):** Test 1 failed safely at validation (nothing created or sent). Test 2, after migration: connections active, state valid, no new Fathom meetings; the agent declined to rebuild 2 legacy-queue meetings (175849733, 180318188, internal-only, no external invitee) and the run was recorded as failed. Still open: decide whether to skip or rebuild those 2.
+
+**Autonomy:** L1 for distribution, unchanged. No emails, tasks, or client-facing sends occurred.
+
+**KPI:** Job run status: `ok` on a nightly run with the skill prompt; zero loose-token approvals possible.
+
+**Owner:** Umesh
+
+**Framework:** Adapted from The Three Ms of AI™ © 2026 Nate Herk.
+
+## 2026-10-29 — Legacy-queue meetings skipped; skill-based pipeline run passes
+
+**Decision:** With Umesh's approval, moved the last 2 legacy `pending_delivery` meetings (175849733, 180318188; internal-only, never sent) into `distribution` as `skipped` with a reason and cleared the legacy queue. Backup: `/opt/data/meeting-watcher-state.json.bak-20261028-legacy-queue`. State validates (11 records: 1 delivered, 10 skipped).
+
+**Result:** Test run at 2026-10-28T19:03Z on the skill-based prompt, Claude subscription provider, completed with `[SILENT]` (no new meetings) and the job shows `ok`. This closes the model failure behind AIOS-20261028-01 and the stale-prompt gap. Still unproven: a run with a real new meeting (Drive packet, Telegram card, exact-token approval), and tonight's scheduled 18:00 UTC run.
+
+**Framework:** Adapted from The Three Ms of AI™ © 2026 Nate Herk.
+
+## 2026-10-29 — Reconcile local checkout with the rebuilt origin history
+
+**Decision:** Move local `main` onto `origin/main` (`cf2d3c2`), which was rebuilt as a new history on 2026-09-24 ("restore corrupted repo") and shares no ancestor with the old local history. The old 42 commits are kept on local branch `backup/pre-rebuild-2026-10-28` (tip `df839ef`). Local-only work was preserved: today's `decisions/log.md` entries (appended unchanged), the `references/hermes-vps-skill-check.md` runbook, and the Business Email Infrastructure section, merged into origin's current `MEMORY.md`. One stale line in `MEMORY.md` was updated: the meeting-intelligence pipeline now runs on the Claude subscription provider, not Sol. A whitespace-only line-ending change in `references/3ms-framework.md` was dropped (content identical).
+
+**Why:** Audit finding AIOS-20261028-02. Local sessions read a 40-day-old `MEMORY.md` (Anand shown at 80% instead of Dead). Eliminate was not possible; the fix is a one-time deterministic reconcile. A merge would have been meaningless with no common ancestor, and tree comparison showed origin's content matched the old local tree except `MEMORY.md`, 5 weekly reviews, 3 project files and one raw file.
+
+**Process:** Trigger: audit finding. Data: `git fetch`, tree diff, backups. Transform: branch, stash, checkout, manual merge of three files. Decision: push only with explicit approval. Destination: local main, then origin if approved.
+
+**Autonomy:** L1. No force push, no history rewrite on origin. Backups: branch above, git stash `pre-reconcile 2026-10-29`, and copies in the session scratchpad.
+
+**KPI:** Local `HEAD` equals origin; the sampled current-state probe (Anand's status) agrees across local and VPS memory; local-only content survives. Bucket: lower cost (fewer wrong-answer corrections).
+
+**Finding:** origin tracks 34 loose objects under `.git.broken/`, re-added after the 2026-09-24 removal. Not changed here; noted for a separate cleanup.
+
+**Owner:** Umesh
+
+**Framework:** Adapted from The Three Ms of AI™ © 2026 Nate Herk.

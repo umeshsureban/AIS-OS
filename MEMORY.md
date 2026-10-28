@@ -92,6 +92,29 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 
 ---
 
+## Business Email Infrastructure
+
+### aitomate.cloud
+- **Status:** Cloudflare Email Routing is active and ready.
+- **Inbound routes:**
+  - `info@aitomate.cloud` → `maya.aitomate@gmail.com`
+  - `mayaAI@aitomate.cloud` → `maya.aitomate@gmail.com`
+  - Cloudflare displays the second address as `mayaai@aitomate.cloud`; email addresses are case-insensitive.
+- **Catch-all:** Disabled.
+- **Gmail outbound:** “Send as” is enabled for `Aitomate <info@aitomate.cloud>`.
+- **Default Gmail sender:** Remains `maya.aitomate@gmail.com`.
+- **Outbound validation:** A test to `umesh.sureban@gmail.com` succeeded and displayed `Aitomate <info@aitomate.cloud>` as the sender.
+- **Validation limitation:** Gmail deduplicated the sent and received test into one message, so independent SPF/DKIM/DMARC results were not exposed through the connected Maya account.
+- **DNS preservation:** All 25 original DNS records were preserved. Five Cloudflare email records were added. All records remain DNS-only.
+- **Authoritative nameservers:**
+  - `rosalyn.ns.cloudflare.com`
+  - `stanley.ns.cloudflare.com`
+- **DNS recovery backup:** `C:\Users\DELL\Documents\Codex\2026-09-18\chec\outputs\aitomate-cloud-dns-backup.json`
+- **Credential handling:** The Gmail app password was not stored or displayed.
+- **Migration deadline:** Gmail's third-party “Send as” SMTP method is temporary and is expected to end in January 2027. Migrate outbound mail to Google Workspace or a dedicated SMTP provider before then.
+
+---
+
 ## Lessons Learned
 
 ### Technical
@@ -99,7 +122,7 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 - Instagram posting via Composio MCP fails — S3 staging URLs not accessible during publish step
 - Host VPS root crontab is populated; Hermes application jobs run through the internal Docker scheduler, not Linux cron
 - Hermes cron jobs must be explicitly pinned after a global provider/model change or drift protection skips them to prevent unintended spend
-- Hermes cron model policy: Luna for lightweight checks/reminders, Terra for multi-tool business workflows, and Sol only for the meeting-intelligence pipeline; do not use Astra for scheduled jobs
+- Hermes cron model policy: Luna for lightweight checks/reminders, Terra for multi-tool business workflows, the meeting-intelligence pipeline runs on the Claude subscription provider (`sonnet`, pinned 2026-10-29) because Sol is rejected by the Codex ChatGPT route; do not use Astra for scheduled jobs
 
 ### Communication
 - Address Umesh ji as "Umesh ji" — never "Sir Ji" or "Surji"
