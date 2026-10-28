@@ -243,3 +243,19 @@ Keep it terse. Future-you will thank present-you for capturing the *why*, not ju
 **Owner:** Umesh
 
 **Framework:** Adapted from The Three Ms of AI™ © 2026 Nate Herk.
+
+## 2026-10-29 — WhatsApp stays manual; second priority query verified
+
+**Decision:** Register WhatsApp as its own row in `connections.md` (row 11): manual by decision, no connection, review each quarter or sooner if capturing client status from chats becomes a recurring chore. X and Instagram stay as "not connected". Added the calendar events query and the HubSpot deal search to the reproducible checks.
+
+**Why:** Audit finding AIOS-20260917-04 and opportunity AIOS-20261028-08. Clients are WhatsApp-first, but Umesh ji sends the follow-ups by hand and the vault already records outcomes per client. Eliminate first: a connection would give an agent read access to client chats with no measured retrieval failure to justify it. Revisit at L1 (read-only, suggested updates) only if status capture becomes a repeated manual chore.
+
+**Evidence (read-only):** Week-view calendar query (2026-10-26 to 2026-11-01) returned 20 events across 9 calendars on 2026-10-28, including a "GuruJi@IT - Landing page Req Gathering" session on 2026-10-26 22:00 IST that `MEMORY.md` does not record. HubSpot deal search returned Anand Hiremath's two deals as Closed Lost (last modified 2026-09-29). The `MEMORY.md` entries were not changed.
+
+**Not yet verified:** the 2026-10-29 18:00 UTC scheduled run of `meeting-intelligence-pipeline` has not happened (VPS clock 2026-10-28 19:38 UTC when checked). AIOS-20261028-01 stays open until it completes.
+
+**KPI:** Bucket: lower cost (fewer unverified assumptions). Metric: priority queries that return current records, from 1 to 2.
+
+**Owner:** Umesh
+
+**Framework:** Adapted from The Three Ms of AI™ © 2026 Nate Herk.

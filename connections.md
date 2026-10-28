@@ -10,14 +10,15 @@ Last full refresh: 2026-10-28 (reads via Composio in Claude Code, plus the Herme
 |---|---|---|---|---|---|
 | 1 | Integration layer | Composio (connections list and tool discovery) | Verified operational | 30 days | Discovery and eight app reads succeeded 2026-10-28 |
 | 2 | Revenue / Financials | Not connected, by decision (2026-10-29) | No source needed now | Review when payments move to an invoicing or accounting tool, otherwise at each quarterly review | Payments are cash or UPI and are recorded per client in `MEMORY.md` and `projects/`. There is no bank, accounting, or payment API. `MEMORY.md` is a hand-kept summary, not a ledger. A GST filing reminder exists as a Hermes cron; no filing data source is registered. |
-| 3 | Customer interactions / CRM | HubSpot via Composio | Verified; use read-only | 30 days | Granted-scopes read succeeded 2026-10-28 (token excluded). The token also carries write scopes (contacts, companies, deals, users). Treat it as read-only unless a task authorizes writes (AIOS-20261028-06). Current CRM stage for deals is unverified; use a scoped query. |
-| 4 | Calendar | Google Calendar via Composio | Verified read access | 30 days | Calendar-list read succeeded 2026-10-28 (first page of calendars returned) |
+| 3 | Customer interactions / CRM | HubSpot via Composio | Verified; use read-only | 30 days | Granted-scopes read succeeded 2026-10-28 (token excluded). The token also carries write scopes (contacts, companies, deals, users). Treat it as read-only unless a task authorizes writes (AIOS-20261028-06). A scoped deal search on 2026-10-28 returned Anand Hiremath's two deals as Closed Lost (last modified 2026-09-29) and no deal named Kumaraswamy; query live when a stage matters. |
+| 4 | Calendar | Google Calendar via Composio | Verified read access | 30 days | Calendar-list read and a week-view events query (2026-10-26 to 2026-11-01, 20 events across 9 calendars) succeeded 2026-10-28 |
 | 5 | Email | Gmail via Composio | Verified read access | 30 days | Mailbox-profile read succeeded 2026-10-28. The connected mailbox is the Maya business account, not Umesh ji's personal one. Message content was not inspected. |
 | 6 | Project / task tracking | ClickUp via Composio | Verified read access | 30 days | Workspace-list read succeeded 2026-10-28; use the default account unless another is named |
 | 7 | Meeting intelligence | Fathom + Google Drive via Composio; Hermes cron `meeting-intelligence-pipeline`; Telegram reply-keyboard review; Gmail distribution | Connections and job verified; live meeting content still untested | 7 days (the job polls daily, so each run is a read) | The job, pinned to the Claude subscription provider, completed on 2026-10-28 (18:50, 19:03, 19:30 UTC; the 18:59 run confirmed Fathom and Drive active) and returned `[SILENT]` because there were no new meetings. State validates. A synthetic Drive packet and a synthetic Telegram card with exact-command buttons were verified on 2026-09-18. Real meeting extraction, a live approval card, and outbound email are untested. |
 | 8 | Knowledge / files | Local Git checkout + GitHub `umeshsureban/AIS-OS` | Verified read access | 30 days | GitHub identity read succeeded 2026-10-28. Local `main` and origin were aligned on 2026-10-28; the VPS pulls at its next sync. |
 | 9 | Content / social | YouTube, LinkedIn, Facebook via Composio | Verified read access | 30 days | Channel statistics, profile, and managed-Page reads succeeded 2026-10-28 (one Page). Facebook reads use restricted fields so Page tokens are never returned. |
-| 10 | Content / social | X, Instagram, WhatsApp Business | Not connected in Composio (connections list, 2026-10-28) | Re-check when a task needs one, otherwise every 90 days | Instagram posting failed earlier through Composio (S3 staging URLs, see `MEMORY.md` lessons). |
+| 10 | Content / social | X, Instagram | Not connected in Composio (connections list, 2026-10-28) | Re-check when a task needs one, otherwise every 90 days | Instagram posting failed earlier through Composio (S3 staging URLs, see `MEMORY.md` lessons). |
+| 11 | Client messaging | WhatsApp Business / WhatsApp | Manual by decision (2026-10-29); no connection | Review each quarter, or sooner if status capture from chats becomes a recurring chore | Clients are WhatsApp-first, but Umesh ji sends the follow-ups by hand. The vault keeps drafts (`whatsapp-messages.html`) and the outcome per client in `MEMORY.md`. No read route is registered, to avoid giving an agent access to client chats without a clear need. |
 
 ## Refresh policy
 
@@ -39,7 +40,8 @@ Last full refresh: 2026-10-28 (reads via Composio in Claude Code, plus the Herme
 - ClickUp: authorized workspace list.
 - HubSpot: granted scopes with the token excluded (or account info); use a narrowly scoped CRM search for client status.
 - Gmail: mailbox profile; use bounded search only for a specific user request.
-- Google Calendar: calendar list (small page), then bounded event query.
+- Google Calendar: calendar list (small page), then a bounded events query across calendars (`GOOGLECALENDAR_EVENTS_LIST_ALL_CALENDARS`, minimal detail, RFC3339 bounds with the +05:30 offset).
+- HubSpot deals: `HUBSPOT_SEARCH_DEALS` with a name query and a small property list (deal name, stage, close date); stage ids map through the deals pipeline (`closedlost` = Closed Lost).
 - YouTube: authenticated channel statistics (`mine`).
 - LinkedIn: authenticated profile only.
 - Facebook: managed Pages with fields restricted to `id,name,category,link` so Page tokens are never returned.
