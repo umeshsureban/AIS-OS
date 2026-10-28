@@ -227,3 +227,19 @@ Keep it terse. Future-you will thank present-you for capturing the *why*, not ju
 **Owner:** Umesh
 
 **Framework:** Adapted from The Three Ms of AI™ © 2026 Nate Herk.
+
+## 2026-10-29 — Refresh the connections registry and add refresh intervals
+
+**Decision:** Refresh `connections.md` after re-reading every connected domain on 2026-10-28, add a refresh interval column (30 days for most domains, 7 for the meeting pipeline, 90 for unconnected social apps), add a short refresh policy, and record revenue as "not connected, by decision": payments are cash or UPI, tracked per client in `MEMORY.md` and `projects/`, with no bank, accounting, or payment API. Revisit when payments move to an invoicing or accounting tool, otherwise at each quarterly review. Also corrected the HubSpot row: the token carries write scopes, so it is to be used read-only unless a task authorizes writes.
+
+**Why:** Audit finding AIOS-20260917-04. The social rows were dated 2026-09-18 (past 30 days) and no row had a refresh rule, so stale evidence could look like a working connection. Eliminate first: no revenue connector is built, because there is no system to connect to and `MEMORY.md` already holds the payment facts.
+
+**Evidence (all read-only, tokens excluded):** YouTube channel statistics, LinkedIn profile, and one Facebook managed Page (fields `id,name,category,link`) succeeded on 2026-10-28; HubSpot scopes, Calendar list, Gmail profile, GitHub identity, and ClickUp workspace list succeeded earlier the same day. The meeting-intelligence job was run on request at 19:30 UTC, returned `[SILENT]` with status `ok`, and state validates: this proves the Fathom and Drive routes, not meeting content.
+
+**Autonomy:** L1. Reads only; no sends, posts, or account changes.
+
+**KPI:** Bucket: lower cost (fewer unverified connection assumptions). Metric: applicable domains with a read inside their interval, from 2 of 8 to 7 of 8 (revenue is excluded by decision, X/Instagram/WhatsApp are unconnected).
+
+**Owner:** Umesh
+
+**Framework:** Adapted from The Three Ms of AI™ © 2026 Nate Herk.
