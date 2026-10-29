@@ -2,7 +2,7 @@
 
 This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code, and Codex.
 
-**Last Updated:** 2026-10-28T19:01:29Z (nightly consolidation; reconciled against all `projects/` files — no material status changes found)
+**Last Updated:** 2026-10-29T19:01:24Z (nightly consolidation; reconciled against all `projects/` files — no material status changes found)
 
 ---
 
@@ -14,7 +14,7 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 - **Status (2026-09-29, Umesh update):** Requirements discussion held with Kumaraswamy and the spiritual group. Their side will deliver the landing page; Umesh / AITOmate Systems will deliver AI-enabled WhatsApp automation.
 - **Deal Stage:** Live CRM stage is not verified. The prior recorded stage was Appointment Scheduled (20%); do not assume closed-won.
 - **Latest clarification:** Kumaraswamy's team will provide Guruji's profile/biodata.
-- **Review:** Saturday, 3 October 2026. This was not a final delivery deadline; no outcome is recorded in the vault as of 2026-10-28.
+- **Review:** Saturday, 3 October 2026. This was not a final delivery deadline; no outcome is recorded in the vault as of 2026-10-29.
 - **Next Actions:** Capture the review outcome plus WhatsApp automation scope and landing-page handoff; confirm commercial terms and delivery dates; prepare a design document for approval before implementation.
 
 ### Anand Hiremath
@@ -84,11 +84,11 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 | Pending Action Items (active clients + open deals) | 9 |
 | Ageing Action Groups (last recorded update before 2026-10-14 or no current timestamp) | 4 |
 | Explicitly Overdue Delivery Deadlines | 0 |
-| Overdue Scheduled-Outcome Capture | 1 (Kumaraswamy review — 2026-10-03; 25 days overdue as of 2026-10-28) |
+| Overdue Scheduled-Outcome Capture | 1 (Kumaraswamy review — 2026-10-03; 26 days overdue as of 2026-10-29) |
 
 **Deal-stage reconciliation:** `projects/anand-hiremath.md`, `projects/aitomate-systems.md`, and `context/clients.md` were aligned to the stages above on 2026-10-29. On any future conflict, this file governs until a new live CRM update is available.
 
-**Ageing and overdue note:** Basavaraj, SeedWise, SSVInfra, and Saurabh have pending delivery/follow-up groups without a current update. Kumaraswamy’s review was scheduled for 2026-10-03 and has no captured outcome as of 2026-10-28; outcome capture is 25 days overdue, but this is not evidence of an overdue delivery. No delivery action has a recorded due date, so the four ageing groups are stalled rather than formally overdue.
+**Ageing and overdue note:** Basavaraj, SeedWise, SSVInfra, and Saurabh have pending delivery/follow-up groups without a current update. Kumaraswamy’s review was scheduled for 2026-10-03 and has no captured outcome as of 2026-10-29; outcome capture is 26 days overdue, but this is not evidence of an overdue delivery. No delivery action has a recorded due date, so the four ageing groups are stalled rather than formally overdue.
 
 ---
 
