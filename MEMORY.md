@@ -2,7 +2,7 @@
 
 This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code, and Codex.
 
-**Last Updated:** 2026-10-30T19:01:21Z (nightly consolidation; reconciled against all `projects/` files — no material status changes found)
+**Last Updated:** 2026-10-31T19:01:20Z (nightly consolidation; reconciled against all `projects/` files)
 
 ---
 
@@ -14,8 +14,23 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 - **Status (2026-09-29, Umesh update):** Requirements discussion held with Kumaraswamy and the spiritual group. Their side will deliver the landing page; Umesh / AITOmate Systems will deliver AI-enabled WhatsApp automation.
 - **Deal Stage:** Live CRM stage is not verified. The prior recorded stage was Appointment Scheduled (20%); do not assume closed-won.
 - **Latest clarification:** Kumaraswamy's team will provide Guruji's profile/biodata.
-- **Review:** Saturday, 3 October 2026. This was not a final delivery deadline; no outcome is recorded in the vault as of 2026-10-30.
+- **Review:** Saturday, 3 October 2026. This was not a final delivery deadline; no outcome is recorded in the vault as of 2026-10-31.
 - **Next Actions:** Capture the review outcome plus WhatsApp automation scope and landing-page handoff; confirm commercial terms and delivery dates; prepare a design document for approval before implementation.
+
+### Sahu Saurabh
+- **Source:** Friend of Sharanu.
+- **Deal Stage:** Lead.
+- **Status:** Follow-up needed on Wednesday, 2026-11-04.
+
+### Santosh Kulkarni
+- **Deal Stage:** Lead.
+- **Status:** Follow-up needed; date TBD.
+- **Topic:** Client base and direction on AI for the business.
+
+### Chetan Kulkarni
+- **Deal Stage:** Lead.
+- **Status:** Follow-up needed; date TBD.
+- **Topic:** Client base and direction on AI for the business.
 
 ### Anand Hiremath
 - **Location:** Australia
@@ -37,9 +52,10 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 - **Actions:** Complete engagement-review follow-up; obtain electricity bill for KYC documentation — **PENDING / AGEING**.
 
 ### Darshan (SeedWise)
-- **Email:** agrosaathi.it@gmail.com
-- **Status:** Active — payments received, including the second ₹50,000 cash payment via Praveen Mudhol.
+- **Email:** darshan.gunagaa@theseedwise.com (also: agrosaathi.it@gmail.com)
+- **Status:** Active — payments received, including ₹50,000 via PhonePe and a second ₹50,000 cash payment via Praveen Mudhol.
 - **Current Delivery:** Mobile app delivery to Google Play Store — **PENDING / AGEING**.
+- **Company:** SEEDWISE TECHNOLOGIES PRIVATE LIMITED; GSTIN `29ABPCS3135F1Z3`; D-U-N-S reference `DR103120263631590130`.
 
 ### Sanjay (SSVInfra)
 - **Primary Email:** sanjay@ssvinfra.net
@@ -77,18 +93,18 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 |--------|-------|
 | Active Clients | 4 |
 | Closed Clients | 3 |
-| Open Deals / New Leads | 1 (Kumaraswamy — requirements discussed; CRM stage unverified) |
-| Dead Deals / New Leads | 1 (Anand Hiremath — Dead / not agreed; shared-memory reconciliation governs) |
-| Total Tracked Client & Deal Records | 9 |
-| Total Deals / Prospects | 2 |
-| Pending Action Items (active clients + open deals) | 9 |
-| Ageing Action Groups (last recorded update before 2026-10-14 or no current timestamp) | 4 |
+| Open Deals / New Leads | 4 (Kumaraswamy + Sahu Saurabh + Santosh Kulkarni + Chetan Kulkarni) |
+| Dead Deals / New Leads | 1 (Anand Hiremath — Dead / not agreed) |
+| Total Tracked Client & Deal Records | 12 |
+| Total Deals / Prospects | 5 |
+| Pending Action Items (active clients + open deals) | 12 |
+| Ageing Action Groups (last recorded update before 2026-10-14 or no current timestamp) | 5 |
 | Explicitly Overdue Delivery Deadlines | 0 |
-| Overdue Scheduled-Outcome Capture | 1 (Kumaraswamy review — 2026-10-03; 27 days overdue as of 2026-10-30) |
+| Overdue Scheduled-Outcome Capture | 1 (Kumaraswamy review — 2026-10-03; 28 days overdue as of 2026-10-31) |
 
 **Deal-stage reconciliation:** `projects/anand-hiremath.md`, `projects/aitomate-systems.md`, and `context/clients.md` were aligned to the stages above on 2026-10-29. On any future conflict, this file governs until a new live CRM update is available.
 
-**Ageing and overdue note:** Basavaraj, SeedWise, SSVInfra, and Saurabh have pending delivery/follow-up groups without a current update. Kumaraswamy’s review was scheduled for 2026-10-03 and has no captured outcome as of 2026-10-30; outcome capture is 27 days overdue, but this is not evidence of an overdue delivery. No delivery action has a recorded due date, so the four ageing groups are stalled rather than formally overdue.
+**Ageing and overdue note:** Basavaraj, SeedWise, SSVInfra, Saurabh, and Kumaraswamy have pending delivery/follow-up groups without a current update. Kumaraswamy’s review was scheduled for 2026-10-03 and has no captured outcome as of 2026-10-31; outcome capture is 28 days overdue, but this is not evidence of an overdue delivery. Sahu Saurabh’s follow-up is due 2026-11-04. No delivery action has a recorded due date, so the five ageing groups are stalled rather than formally overdue.
 
 ---
 
