@@ -53,3 +53,16 @@
 - **Phone:** +91 9363751502
 - **Deal Stage:** Live CRM stage not verified (last recorded: Appointment Scheduled, 20%)
 - **Status:** Requirements discussed 2026-09-29; see `MEMORY.md` and `projects/kumaraswamy.md`
+
+### Sahu Saurabh
+- **Source:** Friend of Sharanu
+- **Status:** Lead — follow-up needed
+- **Follow-up:** Wednesday 2026-11-04
+
+### Santosh Kulkarni
+- **Status:** Lead — follow-up needed (date TBD)
+- **Topic:** Client base + direction on AI for the business
+
+### Chetan Kulkarni
+- **Status:** Lead — follow-up needed (date TBD)
+- **Topic:** Client base + direction on AI for the business
