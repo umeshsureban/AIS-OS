@@ -115,6 +115,8 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 - **Inbound routes:**
   - `info@aitomate.cloud` → `maya.aitomate@gmail.com`
   - `mayaAI@aitomate.cloud` → `maya.aitomate@gmail.com`
+  - `agrosaathi@aitomate.cloud` → `maya.aitomate@gmail.com` (created 2026-11-01 via Cloudflare dashboard by Umesh; AgroSaathi project)
+  - `apps@aitomate.cloud` → `maya.aitomate@gmail.com` (reserved for Play Store publishing for AITOmate/clients)
   - Cloudflare displays the second address as `mayaai@aitomate.cloud`; email addresses are case-insensitive.
 - **Catch-all:** Disabled.
 - **Gmail outbound:** “Send as” is enabled for `Aitomate <info@aitomate.cloud>`.
