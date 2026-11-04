@@ -2,7 +2,7 @@
 
 This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code, and Codex.
 
-**Last Updated:** 2026-11-03T19:00:00Z (nightly consolidation; reconciled against all `projects/` files; no source changes since 2026-11-01)
+**Last Updated:** 2026-11-04 (nightly consolidation; reconciled against all `projects/` files; no source changes since 2026-10-31)
 
 ---
 
@@ -20,7 +20,7 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 ### Sahu Saurabh
 - **Source:** Friend of Sharanu.
 - **Deal Stage:** Lead.
-- **Status:** Follow-up needed on Wednesday, 2026-11-04.
+- **Status:** Follow-up due today, Wednesday, 2026-11-04.
 
 ### Santosh Kulkarni
 - **Deal Stage:** Lead.
@@ -100,11 +100,11 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 | Pending Action Items (active clients + open deals) | 12 |
 | Ageing Action Groups (last recorded update before 2026-10-14 or no current timestamp) | 5 |
 | Explicitly Overdue Delivery Deadlines | 0 |
-| Overdue Scheduled-Outcome Capture | 1 (Kumaraswamy review — 2026-10-03; 31 days overdue as of 2026-11-03) |
+| Overdue Scheduled-Outcome Capture | 1 (Kumaraswamy review — 2026-10-03; 32 days overdue as of 2026-11-04) |
 
 **Deal-stage reconciliation:** `projects/anand-hiremath.md`, `projects/aitomate-systems.md`, and `context/clients.md` were aligned to the stages above on 2026-10-29. On any future conflict, this file governs until a new live CRM update is available.
 
-**Ageing and overdue note:** Basavaraj, SeedWise, SSVInfra, Saurabh, and Kumaraswamy have pending delivery/follow-up groups without a current update. Kumaraswamy’s review was scheduled for 2026-10-03 and has no captured outcome as of 2026-11-01; outcome capture is 31 days overdue, but this is not evidence of an overdue delivery. Sahu Saurabh’s follow-up is due tomorrow, 2026-11-04. Basavaraj, SSVInfra, and Saurabh Divekar have had no recorded update since 2026-09-09 (about 55 days as of 2026-11-03). No delivery action has a recorded due date, so the five ageing groups are stalled rather than formally overdue.
+**Ageing and overdue note:** Basavaraj, SeedWise, SSVInfra, Saurabh, and Kumaraswamy have pending delivery/follow-up groups without a current update. Kumaraswamy’s review was scheduled for 2026-10-03 and has no captured outcome as of 2026-11-01; outcome capture is 32 days overdue, but this is not evidence of an overdue delivery. Sahu Saurabh’s follow-up is due today, 2026-11-04. Basavaraj, SSVInfra, and Saurabh Divekar have had no recorded update since 2026-09-09 (about 56 days as of 2026-11-04). No delivery action has a recorded due date, so the five ageing groups are stalled rather than formally overdue.
 
 ---
 
