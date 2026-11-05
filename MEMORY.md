@@ -2,7 +2,7 @@
 
 This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code, and Codex.
 
-**Last Updated:** 2026-11-04 (nightly consolidation; reconciled against all `projects/` files; no source changes since 2026-10-31)
+**Last Updated:** 2026-11-05 (nightly consolidation; reconciled against all `projects/` files at snapshot b2c59b4; Kumaraswamy and Sahu Saurabh removed from open/overdue lists)
 
 ---
 
@@ -86,20 +86,21 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 
 | Metric | Count |
 |--------|-------|
-| Active Clients | 4 |
-| Closed Clients | 3 |
-| Open Deals / New Leads | 4 (Kumaraswamy + Sahu Saurabh + Santosh Kulkarni + Chetan Kulkarni) |
-| Dead Deals / New Leads | 1 (Anand Hiremath — Dead / not agreed) |
+| Active Clients | 4 (Basavaraj, Darshan/SeedWise, Sanjay/SSVInfra, Saurabh Divekar) |
+| Closed Clients | 3 (Sravan/VNA, Alan, Parijat) |
+| Open Leads | 2 (Santosh Kulkarni, Chetan Kulkarni — date TBD) |
+| Dead / Went Cold | 2 (Anand Hiremath — not agreed; Kumaraswamy — went cold, closed 2026-11-04) |
+| Not Live (follow-up closed) | 1 (Sahu Saurabh — follow-up closed 2026-11-04) |
 | Total Tracked Client & Deal Records | 12 |
-| Total Deals / Prospects | 5 |
-| Pending Action Items (active clients + open deals) | 12 |
-| Ageing Action Groups (last recorded update before 2026-10-14 or no current timestamp) | 5 |
+| Total Deals / Prospects | 5 (Kumaraswamy, Sahu Saurabh, Santosh Kulkarni, Chetan Kulkarni, Anand Hiremath) |
+| Pending Action Items (active clients + open leads) | 9 |
+| Ageing Action Groups (no update since 2026-09-09, or no follow-up date) | 5 (Basavaraj, SSVInfra, Saurabh Divekar, Santosh Kulkarni, Chetan Kulkarni) |
 | Explicitly Overdue Delivery Deadlines | 0 |
-| Overdue Scheduled-Outcome Capture | 1 (Kumaraswamy review — 2026-10-03; 32 days overdue as of 2026-11-04) |
+| Overdue Scheduled-Outcome Capture | 0 (Kumaraswamy review item retired with the closed deal) |
 
 **Deal-stage reconciliation:** `projects/anand-hiremath.md`, `projects/aitomate-systems.md`, and `context/clients.md` were aligned to the stages above on 2026-10-29. On any future conflict, this file governs until a new live CRM update is available.
 
-**Ageing and overdue note:** Basavaraj, SeedWise, SSVInfra, Saurabh, and Kumaraswamy have pending delivery/follow-up groups without a current update. Kumaraswamy’s review was scheduled for 2026-10-03 and has no captured outcome as of 2026-11-01; outcome capture is 32 days overdue, but this is not evidence of an overdue delivery. Sahu Saurabh’s follow-up is due today, 2026-11-04. Basavaraj, SSVInfra, and Saurabh Divekar have had no recorded update since 2026-09-09 (about 56 days as of 2026-11-04). No delivery action has a recorded due date, so the five ageing groups are stalled rather than formally overdue.
+**Ageing and overdue note:** Basavaraj, SSVInfra, and Saurabh Divekar have had no recorded update since 2026-09-09 (about 57 days as of 2026-11-05). Santosh and Chetan Kulkarni have no follow-up date set. Kumaraswamy (closed 2026-11-04) and Sahu Saurabh (follow-up closed 2026-11-04) are no longer tracked as overdue. SeedWise is current: internal testing live on Google Play as of 2026-11-04. No delivery action has a recorded due date, so the ageing groups are stalled rather than formally overdue.
 
 ---
 

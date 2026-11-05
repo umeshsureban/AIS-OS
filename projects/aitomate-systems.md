@@ -25,7 +25,7 @@
 
 ### SeedWise (Darshan)
 - **Email:** agrosaathi.it@gmail.com
-- **Status:** Payment received ₹50k (PhonePe/Darshan + ₹50k cash/Praveen) — delivering mobile app to Google Play Store
+- **Status:** Payments received (PhonePe/Darshan + ₹50k cash/Praveen) — app live on Google Play internal testing (2026-11-04); next: closed testing → production
 
 ### SSVInfra (Sanjay)
 - **Status:** Active client
@@ -51,10 +51,10 @@
 ### Kumaraswamy
 - **Location:** West Bengal, Siligudi, India
 - **Phone:** +91 9363751502
-- **Deal Stage:** Live CRM stage not verified (last recorded: Appointment Scheduled, 20%)
-- **Status:** Requirements discussed 2026-09-29; see `MEMORY.md` and `projects/kumaraswamy.md`
+- **Deal Stage:** CLOSED — went cold (2026-11-04). CRM stage not verified (last recorded: Appointment Scheduled, 20%)
+- **Status:** Requirements discussed 2026-09-29; no further action. See `MEMORY.md` and `projects/kumaraswamy.md`
 
-### Sahu Saurabh
+### Sahu Saurabh (follow-up closed 2026-11-04 — not a live deal)
 - **Source:** Friend of Sharanu
 - **Status:** Lead — follow-up needed
 - **Follow-up:** Wednesday 2026-11-04
