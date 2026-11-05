@@ -11,7 +11,7 @@
 - **2nd Payment:** ₹50,000 (cash via Praveen Mudhol)
 
 ## Current Action
-- Delivering mobile app to Google Play Store
+- App deployed to Google Play **internal testing** (2026-11-04). Next: closed testing → production.
 
 ## Company & Compliance Details (added 2026-10-30)
 - **Client email (Darshan):** darshan.gunagaa@theseedwise.com (also: agrosaathi.it@gmail.com)

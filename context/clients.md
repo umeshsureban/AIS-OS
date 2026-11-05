@@ -12,7 +12,7 @@
 ### SeedWise (Darshan)
 - **Email:** agrosaathi.it@gmail.com
 - **Status:** Active; second payment of ₹50,000 received
-- **Action:** Current delivery is the mobile app to the Google Play Store (see `MEMORY.md`)
+- **Action:** Mobile app deployed to Google Play internal testing (2026-11-04). Next: closed testing, then production
 
 ### SSVInfra (Sanjay)
 - **Status:** Active; documentation and email-accessibility issue pending
@@ -45,7 +45,7 @@
 ### Kumaraswamy
 - **Location:** West Bengal, Siligudi, India
 - **Phone:** +91 9363751502
-- **Deal Stage:** Live CRM stage not verified (last recorded: Appointment Scheduled, 20%). Requirements were discussed on 2026-09-29.
+- **Deal Stage:** Closed — went cold (2026-11-04)
 - **Status:** Their side delivers the landing page; AITOmate delivers AI-enabled WhatsApp automation
 - **Next action:** See `MEMORY.md` and `projects/kumaraswamy.md`
 
@@ -65,5 +65,5 @@ Current stages live in `MEMORY.md`. Snapshot as of 2026-10-29:
 
 | Name | Source | Stage |
 |------|--------|-------|
-| Kumaraswamy | India (Siliguri) | Open; requirements discussed, CRM stage unverified |
+| Kumaraswamy | India (Siliguri) | Closed, went cold |
 | Anand Hiremath | Australia | Dead, not agreed |

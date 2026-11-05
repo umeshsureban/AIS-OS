@@ -9,18 +9,13 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 ## Active Deals & Prospects
 
 ### Kumaraswamy
-- **Location:** West Bengal, Siligudi, India
-- **Phone:** +91 9363751502
-- **Status (2026-09-29, Umesh update):** Requirements discussion held with Kumaraswamy and the spiritual group. Their side will deliver the landing page; Umesh / AITOmate Systems will deliver AI-enabled WhatsApp automation.
-- **Deal Stage:** Live CRM stage is not verified. The prior recorded stage was Appointment Scheduled (20%); do not assume closed-won.
-- **Latest clarification:** Kumaraswamy's team will provide Guruji's profile/biodata.
-- **Review:** Saturday, 3 October 2026. This was not a final delivery deadline; no outcome is recorded in the vault as of 2026-10-31.
-- **Next Actions:** Capture the review outcome plus WhatsApp automation scope and landing-page handoff; confirm commercial terms and delivery dates; prepare a design document for approval before implementation.
+- **Deal Stage:** CLOSED — went cold (Umesh update, 2026-11-04). No further follow-up. The overdue 2026-10-03 review outcome capture is retired.
+- **History:** Requirements discussed 2026-09-29 (their side: landing page; AITOmate: AI-enabled WhatsApp automation). No commercial terms or delivery dates were ever confirmed.
+- **Open item:** HubSpot deal not yet marked Closed Lost (pending Umesh approval).
 
 ### Sahu Saurabh
 - **Source:** Friend of Sharanu.
-- **Deal Stage:** Lead.
-- **Status:** Follow-up due today, Wednesday, 2026-11-04.
+- **Deal Stage:** Lead — discussion held evening of 2026-11-03; informative, gave startup suggestions. Follow-up task CLOSED (Umesh update, 2026-11-04). Not a live deal.
 
 ### Santosh Kulkarni
 - **Deal Stage:** Lead.
@@ -54,7 +49,7 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 ### Darshan (SeedWise)
 - **Email:** darshan.gunagaa@theseedwise.com (also: agrosaathi.it@gmail.com)
 - **Status:** Active — payments received, including ₹50,000 via PhonePe and a second ₹50,000 cash payment via Praveen Mudhol.
-- **Current Delivery:** Mobile app delivery to Google Play Store — **PENDING / AGEING**.
+- **Current Delivery:** Mobile app is LIVE on Google Play for **internal testers** (Umesh update, 2026-11-04). Next: closed testing, then production. Contact address for the app: agrosaathi@aitomate.cloud.
 - **Company:** SEEDWISE TECHNOLOGIES PRIVATE LIMITED; GSTIN `29ABPCS3135F1Z3`; D-U-N-S reference `DR103120263631590130`.
 
 ### Sanjay (SSVInfra)

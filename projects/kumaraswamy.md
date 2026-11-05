@@ -5,7 +5,7 @@
 - **Location:** West Bengal, Siligudi, India
 - **Phone:** +91 9363751502
 
-## Deal Status: Requirements discussed; delivery responsibilities agreed
+## Deal Status: CLOSED — went cold (2026-11-04, Umesh)
 
 CRM stage not verified or updated.
 
@@ -18,6 +18,7 @@ CRM stage not verified or updated.
 - Detailed automation scope, price, and WhatsApp delivery dates are not yet confirmed.
 
 ## Updates
+- **2026-11-04 (Umesh update):** Deal went cold; closed. No further action.
 - **2026-09-29 (Umesh update):** Requirements discussion completed; landing page assigned to their side, WhatsApp automation to Umesh.
 - **Sep 9:** Going to arrange meeting with his client
 
