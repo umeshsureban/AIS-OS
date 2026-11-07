@@ -56,8 +56,8 @@
 
 ### Sahu Saurabh (follow-up closed 2026-11-04 — not a live deal)
 - **Source:** Friend of Sharanu
-- **Status:** Lead — follow-up needed
-- **Follow-up:** Wednesday 2026-11-04
+- **Status:** Lead — follow-up task closed 2026-11-04 (not a live deal)
+- **Follow-up:** Closed (was Wednesday 2026-11-04)
 
 ### Santosh Kulkarni
 - **Status:** Lead — follow-up needed (date TBD)
