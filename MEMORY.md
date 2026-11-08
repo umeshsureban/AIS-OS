@@ -2,7 +2,7 @@
 
 This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code, and Codex.
 
-**Last Updated:** 2026-11-07 (nightly consolidation; re-reconciled against all `projects/` files at HEAD 0ffb141; no status changes since 2026-11-04; Kumaraswamy and Sahu Saurabh remain removed from open/overdue lists; `projects/aitomate-systems.md` Sahu entry aligned to closed follow-up)
+**Last Updated:** 2026-11-08 (nightly consolidation; re-reconciled against all `projects/` files at HEAD 5c2d261; no project-file changes since 2026-11-07; no status changes since 2026-11-04; ageing count now 60 days; Kumaraswamy and Sahu Saurabh remain removed from open/overdue lists; `projects/aitomate-systems.md` Sahu entry aligned to closed follow-up)
 
 ---
 
@@ -100,7 +100,7 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 
 **Deal-stage reconciliation:** `projects/anand-hiremath.md`, `projects/aitomate-systems.md`, and `context/clients.md` were aligned to the stages above on 2026-10-29. On any future conflict, this file governs until a new live CRM update is available.
 
-**Ageing and overdue note:** Basavaraj, SSVInfra, and Saurabh Divekar have had no recorded update since 2026-09-09 (about 59 days as of 2026-11-07). Santosh and Chetan Kulkarni have no follow-up date set. Kumaraswamy (closed 2026-11-04) and Sahu Saurabh (follow-up closed 2026-11-04) are no longer tracked as overdue. SeedWise is current: internal testing live on Google Play as of 2026-11-04. No delivery action has a recorded due date, so the ageing groups are stalled rather than formally overdue.
+**Ageing and overdue note:** Basavaraj, SSVInfra, and Saurabh Divekar have had no recorded update since 2026-09-09 (about 60 days as of 2026-11-08). Santosh and Chetan Kulkarni have no follow-up date set. Kumaraswamy (closed 2026-11-04) and Sahu Saurabh (follow-up closed 2026-11-04) are no longer tracked as overdue. SeedWise is current: internal testing live on Google Play as of 2026-11-04. No delivery action has a recorded due date, so the ageing groups are stalled rather than formally overdue.
 
 ---
 
