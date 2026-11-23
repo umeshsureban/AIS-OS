@@ -100,7 +100,7 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 
 **Deal-stage reconciliation:** `projects/anand-hiremath.md`, `projects/aitomate-systems.md`, and `context/clients.md` were aligned to the stages above on 2026-10-29. On any future conflict, this file governs until a new live CRM update is available.
 
-**Ageing and overdue note:** Basavaraj, SSVInfra, and Saurabh Divekar have had no recorded update since 2026-09-09 (74 days as of 2026-11-22). Santosh and Chetan Kulkarni have no follow-up date set. Kumaraswamy (closed 2026-11-04) and Sahu Saurabh (follow-up closed 2026-11-04) are no longer tracked as overdue. SeedWise is current: internal testing live on Google Play as of 2026-11-04. No delivery action has a recorded due date, so the ageing groups are stalled rather than formally overdue.
+**Ageing and overdue note:** Basavaraj, SSVInfra, and Saurabh Divekar have had no recorded update since 2026-09-09 (75 days as of 2026-11-23). Santosh and Chetan Kulkarni have no follow-up date set. Kumaraswamy (closed 2026-11-04) and Sahu Saurabh (follow-up closed 2026-11-04) are no longer tracked as overdue. SeedWise is current: internal testing live on Google Play as of 2026-11-04. No delivery action has a recorded due date, so the ageing groups are stalled rather than formally overdue.
 
 ---
 
