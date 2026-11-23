@@ -2,7 +2,7 @@
 
 This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code, and Codex.
 
-**Last Updated:** 2026-11-22 (nightly consolidation 19:00 IST; re-reconciled against all `projects/` files; no project-file changes since 2026-11-07; no status changes since 2026-11-04; ageing count now 74 days; Kumaraswamy and Sahu Saurabh remain removed from open/overdue lists; `projects/aitomate-systems.md` Sahu entry aligned to closed follow-up)
+**Last Updated:** 2026-11-23 (nightly consolidation 19:00 IST; re-reconciled against all `projects/` files; no project-file changes since 2026-11-07; no status changes since 2026-11-04; ageing count now 75 days; Kumaraswamy and Sahu Saurabh remain removed from open/overdue lists; `projects/aitomate-systems.md` Sahu entry aligned to closed follow-up)
 
 ---
 
@@ -94,7 +94,7 @@ This file is the shared memory layer for all AI tools: Hermes Agent, Claude Code
 | Total Tracked Client & Deal Records | 12 |
 | Total Deals / Prospects | 5 (Kumaraswamy, Sahu Saurabh, Santosh Kulkarni, Chetan Kulkarni, Anand Hiremath) |
 | Pending Action Items (active clients + open leads) | 7 (Basavaraj 2, Sanjay 2, Saurabh 1, Santosh 1, Chetan 1; excludes HubSpot Closed Lost approval) |
-| Ageing Action Groups (no update since 2026-09-09, or no follow-up date) | 5 (Basavaraj, SSVInfra, Saurabh Divekar, Santosh Kulkarni, Chetan Kulkarni) |
+| Ageing Action Groups (no update since 2026-09-09, or no follow-up date) | 5 (Basavaraj, SSVInfra, Saurabh Divekar, Santosh Kulkarni, Chetan Kulkarni; 75 days as of 2026-11-23) |
 | Explicitly Overdue Delivery Deadlines | 0 |
 | Overdue Scheduled-Outcome Capture | 0 (Kumaraswamy review item retired with the closed deal) |
 
