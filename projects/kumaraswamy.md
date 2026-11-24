@@ -23,9 +23,7 @@ CRM stage not verified or updated.
 - **Sep 9:** Going to arrange meeting with his client
 
 ## Next Actions
-1. Capture the agreed WhatsApp automation requirements and landing-page handoff details.
-2. Confirm commercial terms and delivery dates.
-3. Prepare design document for Umesh’s approval before implementation.
+None. Deal closed (went cold) 2026-11-04. Re-open only if Kumaraswamy reaches out. HubSpot deal still needs Closed Lost marking (pending Umesh approval).
 
 ## Notes
 - Referral through spiritual guru
